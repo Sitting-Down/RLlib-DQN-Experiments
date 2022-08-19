@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/08/2022 19:43:40 by Eclipse SUMO netedit Version 1.9.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\xyzab\Downloads\main.net%20(1).xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\xyzab\Downloads\main.net%20(1).xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="C:\Users\xyzab\Desktop\day1amonwards.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="Truck" vClass="truck" color="blue"/>
+    <vType id="vType_0"/>
+    
+      <!-- DAY 1 AM -->
+    <flow id="flow_0" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="7199.02" number="1221"/>
+    <flow id="flow_1" begin="0.00" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="7199.92" number="161"/>
+    <flow id="flow_10" begin="0.00" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="7199.92" number="215"/>
+    <flow id="flow_11" type="Truck" begin="0.00" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="7199.96" number="57"/>
+    <flow id="flow_12" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="7198.36" number="1012"/>
+    <flow id="flow_13" begin="0.00" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="7199.56" number="369"/>
+    <flow id="flow_14" type="Truck" begin="0.00" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="7199.95" number="50"/>
+    <flow id="flow_15" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="7197.26" number="1367"/>
+    <flow id="flow_16" begin="0.00" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="7199.32" number="301"/>
+    <flow id="flow_17" type="Truck" begin="0.00" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="7199.70" number="146"/>
+    <flow id="flow_18" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="7199.02" number="10"/>
+    <flow id="flow_19" begin="0.00" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="7199.92" number="5"/>
+    <flow id="flow_2" type="Truck" begin="0.00" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="7199.92" number="52"/>
+    <flow id="flow_20" type="Truck" begin="0.00" color="blue" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="0.00" number="0"/>
+    <flow id="flow_21" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="7198.91" number="286"/>
+    <flow id="flow_22" begin="0.00" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="7199.85" number="75"/>
+    <flow id="flow_23" type="Truck" begin="0.00" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="7199.91" number="31"/>
+    <flow id="flow_24" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="7198.92" number="331"/>
+    <flow id="flow_25" begin="0.00" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="7199.90" number="71"/>
+    <flow id="flow_26" type="Truck" begin="0.00" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="7199.91" number="21"/>
+    <flow id="flow_27" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="7198.89" number="169"/>
+    <flow id="flow_28" begin="0.00" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="7199.89" number="41"/>
+    <flow id="flow_29" type="Truck" begin="0.00" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="7199.92" number="6"/>
+    <flow id="flow_3" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="7195.32" number="2257"/>
+    <flow id="flow_30" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="7198.83" number="487"/>
+    <flow id="flow_31" begin="0.00" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="7199.81" number="124"/>
+    <flow id="flow_32" type="Truck" begin="0.00" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="7199.90" number="32"/>
+    <flow id="flow_33" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="7198.83" number="389"/>
+    <flow id="flow_34" begin="0.00" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="7199.92" number="115"/>
+    <flow id="flow_35" type="Truck" begin="0.00" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="7199.92" number="26"/>
+    <flow id="flow_36" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="7198.97" number="168"/>
+    <flow id="flow_37" begin="0.00" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="7199.92" number="20"/>
+    <flow id="flow_38" type="Truck" begin="0.00" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="0.00" number="0"/>
+    <flow id="flow_39" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="7198.99" number="674"/>
+    <flow id="flow_4" begin="0.00" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="7199.86" number="431"/>
+    <flow id="flow_40" begin="0.00" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="7199.81" number="154"/>
+    <flow id="flow_41" type="Truck" begin="0.00" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="7199.90" number="37"/>
+    <flow id="flow_42" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="7198.94" number="186"/>
+    <flow id="flow_43" begin="0.00" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="7199.90" number="48"/>
+    <flow id="flow_44" type="Truck" begin="0.00" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="7199.92" number="2"/>
+    <flow id="flow_45" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="7198.68" number="554"/>
+    <flow id="flow_46" begin="0.00" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="7199.83" number="149"/>
+    <flow id="flow_47" type="Truck" begin="0.00" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="0.00" number="0"/>
+    <flow id="flow_48" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="7198.86" number="347"/>
+    <flow id="flow_49" begin="0.00" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="7199.91" number="155"/>
+    <flow id="flow_5" type="Truck" begin="0.00" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="7199.86" number="144"/>
+    <flow id="flow_50" type="Truck" begin="0.00" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="0.00" number="0"/>
+    <flow id="flow_51" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="7199.01" number="182"/>
+    <flow id="flow_52" begin="0.00" from="I3A1" to="-I3B1" via="-I3B2" end="7199.81" number="123"/>
+    <flow id="flow_53" type="Truck" begin="0.00" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="7199.92" number="19"/>
+    <flow id="flow_54" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="7198.79" number="495"/>
+    <flow id="flow_55" begin="0.00" from="-I2D1" to="-I3C2" via="I3AC1" end="7199.77" number="189"/>
+    <flow id="flow_56" type="Truck" begin="0.00" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="0.00" number="0"/>
+    <flow id="flow_57" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I3A1" to="-I3D2" end="7197.96" number="1064"/>
+    <flow id="flow_58" begin="0.00" from="I3A1" to="-I3D2" end="7199.64" number="563"/>
+    <flow id="flow_59" type="Truck" begin="0.00" color="blue" from="I3A1" to="-I3D2" end="7199.85" number="175"/>
+    <flow id="flow_6" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="7197.85" number="618"/>
+    <flow id="flow_60" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I3C1" to="-I3A1" end="7198.82" number="340"/>
+    <flow id="flow_61" begin="0.00" from="I3C1" to="-I3A1" end="7199.77" number="174"/>
+    <flow id="flow_62" type="Truck" begin="0.00" color="blue" from="I3C1" to="-I3A1" end="7199.92" number="10"/>
+    <flow id="flow_63" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="7199.00" number="339"/>
+    <flow id="flow_64" begin="0.00" from="I3C2" to="-I3B1" via="-I3B2" end="7199.68" number="302"/>
+    <flow id="flow_65" type="Truck" begin="0.00" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="7199.92" number="1"/>
+    <flow id="flow_66" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="7198.90" number="141"/>
+    <flow id="flow_67" begin="0.00" from="I3C2" to="-I3D2" via="I3CD1" end="7199.91" number="39"/>
+    <flow id="flow_68" type="Truck" begin="0.00" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="0.00" number="0"/>
+    <flow id="flow_69" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I3D2" to="-I3A1" end="7198.99" number="971"/>
+    <flow id="flow_7" begin="0.00" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="7199.72" number="220"/>
+    <flow id="flow_70" begin="0.00" from="I3D2" to="-I3A1" end="7199.59" number="711"/>
+    <flow id="flow_71" type="Truck" begin="0.00" color="blue" from="I3D2" to="-I3A1" end="7199.86" number="76"/>
+    <flow id="flow_72" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="7198.96" number="68"/>
+    <flow id="flow_73" begin="0.00" from="I3D2" to="-I3B1" via="I3DB1" end="7199.91" number="30"/>
+    <flow id="flow_74" type="Truck" begin="0.00" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="7199.92" number="2"/>
+    <flow id="flow_75" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="7199.00" number="413"/>
+    <flow id="flow_76" begin="0.00" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="7199.86" number="119"/>
+    <flow id="flow_77" type="Truck" begin="0.00" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="0.00" number="0"/>
+    <flow id="flow_8" type="Truck" begin="0.00" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="7199.94" number="66"/>
+    <flow id="flow_9" type="DEFAULT_BIKETYPE" begin="0.00" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="7198.88" number="692"/>
+
+    <!-- DAY 1 PM -->
+<flow id="flow_78" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="14400" number="1526"/>
+<flow id="flow_79" begin="7200" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="14400" number="257"/>
+<flow id="flow_80" type="Truck" begin="7200" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="14400" number="233"/>
+<flow id="flow_81" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="14400" number="2593"/>
+<flow id="flow_82" begin="7200" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="14400" number="502"/>
+<flow id="flow_83" type="Truck" begin="7200" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="14400" number="63"/>
+<flow id="flow_84" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="14400" number="963"/>
+<flow id="flow_85" begin="7200" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="14400" number="331"/>
+<flow id="flow_86" type="Truck" begin="7200" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="14400" number="99"/>
+<flow id="flow_87" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="14400" number="411"/>
+<flow id="flow_88" begin="7200" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="14400" number="212"/>
+<flow id="flow_89" type="Truck" begin="7200" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="14400" number="94"/>
+<flow id="flow_90" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="14400" number="984"/>
+<flow id="flow_91" begin="7200" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="14400" number="377"/>
+<flow id="flow_92" type="Truck" begin="7200" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="14400" number="20"/>
+<flow id="flow_93" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="14400" number="2829"/>
+<flow id="flow_94" begin="7200" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="14400" number="528"/>
+<flow id="flow_95" type="Truck" begin="7200" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="14400" number="42"/>
+<flow id="flow_96" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="14400" number="5"/>
+
+<flow id="flow_99" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="14400" number="550"/>
+<flow id="flow_100" begin="7200" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="14400" number="118"/>
+<flow id="flow_101" type="Truck" begin="7200" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="14400" number="39"/>
+<flow id="flow_102" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="14400" number="371"/>
+<flow id="flow_103" begin="7200" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="14400" number="76"/>
+<flow id="flow_104" type="Truck" begin="7200" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="14400" number="32"/>
+<flow id="flow_105" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="14400" number="193"/>
+<flow id="flow_106" begin="7200" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="14400" number="38"/>
+<flow id="flow_107" type="Truck" begin="7200" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="14400" number="12"/>
+<flow id="flow_108" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="14400" number="456"/>
+<flow id="flow_109" begin="7200" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="14400" number="124"/>
+<flow id="flow_110" type="Truck" begin="7200" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="14400" number="31"/>
+<flow id="flow_111" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="14400" number="667"/>
+<flow id="flow_112" begin="7200" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="14400" number="171"/>
+<flow id="flow_113" type="Truck" begin="7200" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="14400" number="44"/>
+<flow id="flow_114" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="14400" number="681"/>
+<flow id="flow_116" begin="7200" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="14400" number="144"/>
+<flow id="flow_117" type="Truck" begin="7200" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="14400" number="33"/>
+<flow id="flow_118" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="14400" number="873"/>
+<flow id="flow_119" begin="7200" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="14400" number="199"/>
+<flow id="flow_120" type="Truck" begin="7200" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="14400" number="35"/>
+<flow id="flow_121" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="14400" number="496"/>
+<flow id="flow_122" begin="7200" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="14400" number="119"/>
+<flow id="flow_124" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="14400" number="200"/>
+<flow id="flow_125" begin="7200" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="14400" number="151"/>
+<flow id="flow_127" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="14400" number="314"/>
+<flow id="flow_128" begin="7200" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="14400" number="186"/>
+<flow id="flow_129" type="Truck" begin="7200" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="14400" number="204"/>
+<flow id="flow_130" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="14400" number="212"/>
+<flow id="flow_131" begin="7200" from="I3A1" to="-I3B1" via="-I3B2" end="14400" number="101"/>
+<flow id="flow_132" type="Truck" begin="7200" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="14400" number="5"/>
+<flow id="flow_133" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="14400" number="955"/>
+<flow id="flow_134" begin="7200" from="-I2D1" to="-I3C2" via="I3AC1" end="14400" number="402"/>
+<flow id="flow_135" type="Truck" begin="7200" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="14400" number="3"/>
+<flow id="flow_136" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I3A1" to="-I3D2"  end="14400" number="983"/>
+<flow id="flow_137" begin="7200" from="I3A1" to="-I3D2"  end="14400" number="557"/>
+<flow id="flow_138" type="Truck" begin="7200" color="blue" from="I3A1" to="-I3D2"  end="14400" number="156"/>
+<flow id="flow_139" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I3C1" to="-I3A1" end="14400" number="632"/>
+<flow id="flow_140" begin="7200" from="I3C1" to="-I3A1" end="14400" number="467"/>
+<flow id="flow_141" type="Truck" begin="7200" color="blue" from="I3C1" to="-I3A1"  end="14400" number="12"/>
+<flow id="flow_142" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="14400" number="429"/>
+<flow id="flow_143" begin="7200" from="I3C2" to="-I3B1" via="-I3B2" end="14400" number="264"/>
+<flow id="flow_146" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I3C2" to="-I3D2" via="I3CD1"  end="14400" number="63"/>
+<flow id="flow_147" begin="7200" from="I3C2" to="-I3D2" via="I3CD1"  end="14400" number="67"/>
+<flow id="flow_149" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I3D2" to="-I3A1"  end="14400" number="1770"/>
+<flow id="flow_150" begin="7200" from="I3D2" to="-I3A1"  end="14400" number="543"/>
+<flow id="flow_151" type="Truck" begin="7200" color="blue" from="I3D2" to="-I3A1"  end="14400" number="233"/>
+<flow id="flow_152" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="14400" number="137"/>
+<flow id="flow_153" begin="7200" from="I3D2" to="-I3B1" via="I3DB1" end="14400" number="67"/>
+<flow id="flow_154" type="Truck" begin="7200" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="14400" number="9"/>
+<flow id="flow_155" type="DEFAULT_BIKETYPE" begin="7200" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="14400" number="528"/>
+<flow id="flow_156" begin="7200" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="14400" number="358"/>
+<flow id="flow_157" type="Truck" begin="7200" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="14400" number="41"/>
+
+
+<!-- DAY 2 AM -->
+<flow id="flow_158" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="21598.18" number="1211"/>
+<flow id="flow_159" begin="14400" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="21599.92" number="161"/>
+<flow id="flow_160" type="Truck" begin="14400" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="21599.92" number="52"/>
+<flow id="flow_161" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="21595.32" number="2257"/>
+<flow id="flow_162" begin="14400" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="21599.86" number="431"/>
+<flow id="flow_163" type="Truck" begin="14400" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="21599.86" number="144"/>
+<flow id="flow_164" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="21597.85" number="618"/>
+<flow id="flow_165" begin="14400" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="21599.72" number="220"/>
+<flow id="flow_166" type="Truck" begin="14400" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="21599.94" number="66"/>
+<flow id="flow_167" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="21598.88" number="692"/>
+
+    <flow id="flow_168" begin="14400" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="21599.92" number="215"/>
+    <flow id="flow_169" type="Truck" begin="14400" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="21599.96" number="57"/>
+    <flow id="flow_170" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="21598.36" number="1012"/>
+    <flow id="flow_171" begin="14400" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="21599.56" number="369"/>
+    <flow id="flow_172" type="Truck" begin="14400" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="21599.95" number="50"/>
+    <flow id="flow_173" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="21597.26" number="1367"/>
+    <flow id="flow_174" begin="14400" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="21599.32" number="301"/>
+    <flow id="flow_175" type="Truck" begin="14400" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="21599.70" number="146"/>
+    <flow id="flow_176" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="21599.02" number="10"/>
+    <flow id="flow_177" begin="14400" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="21599.92" number="5"/>
+    
+    <flow id="flow_179" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="21598.91" number="286"/>
+    <flow id="flow_180" begin="14400" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="21599.85" number="75"/>
+    <flow id="flow_181" type="Truck" begin="14400" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="21599.91" number="31"/>
+    <flow id="flow_182" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="21598.92" number="331"/>
+    <flow id="flow_183" begin="14400" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="21599.90" number="71"/>
+    <flow id="flow_184" type="Truck" begin="14400" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="21599.91" number="21"/>
+    <flow id="flow_185" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="21598.89" number="169"/>
+    <flow id="flow_186" begin="14400" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="21599.89" number="41"/>
+    <flow id="flow_187" type="Truck" begin="14400" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="21599.92" number="6"/>
+
+    <flow id="flow_188" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="21598.83" number="487"/>
+    <flow id="flow_189" begin="14400" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="21599.81" number="124"/>
+    <flow id="flow_190" type="Truck" begin="14400" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="21599.90" number="32"/>
+    <flow id="flow_191" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="21598.83" number="389"/>
+    <flow id="flow_192" begin="14400" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="21599.92" number="115"/>
+    <flow id="flow_193" type="Truck" begin="14400" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="21599.92" number="26"/>
+    <flow id="flow_194" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="21598.97" number="168"/>
+    <flow id="flow_195" begin="14400" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="21599.92" number="20"/>
+    <flow id="flow_197" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="21598.99" number="674"/>
+
+    <flow id="flow_198" begin="14400" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="21599.81" number="154"/>
+    <flow id="flow_199" type="Truck" begin="14400" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="21599.90" number="37"/>
+    <flow id="flow_200" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="21598.94" number="186"/>
+    <flow id="flow_201" begin="14400" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="21599.90" number="48"/>
+    <flow id="flow_202" type="Truck" begin="14400" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="21599.92" number="2"/>
+    <flow id="flow_203" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="21598.68" number="554"/>
+    <flow id="flow_204" begin="14400" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="21599.83" number="149"/>
+    <flow id="flow_206" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="21598.86" number="347"/>
+    <flow id="flow_207" begin="14400" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="21599.91" number="155"/>
+   
+    <flow id="flow_208" type="Truck" begin="14400" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="21599.90" number="50"/>
+    <flow id="flow_209" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="21599.01" number="182"/>
+    <flow id="flow_210" begin="14400" from="I3A1" to="-I3B1" via="-I3B2" end="21599.81" number="123"/>
+    <flow id="flow_211" type="Truck" begin="14400" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="21599.92" number="19"/>
+    <flow id="flow_212" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="21598.79" number="495"/>
+    <flow id="flow_213" begin="14400" from="-I2D1" to="-I3C2" via="I3AC1" end="21599.77" number="189"/>
+    <flow id="flow_215" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I3A1" to="-I3D2" end="21597.96" number="1064"/>
+    <flow id="flow_216" begin="14400" from="I3A1" to="-I3D2" end="21599.64" number="563"/>
+    <flow id="flow_217" type="Truck" begin="14400" color="blue" from="I3A1" to="-I3D2" end="21599.85" number="175"/>
+    
+    <flow id="flow_218" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I3C1" to="-I3A1" end="21598.82" number="340"/>
+    <flow id="flow_219" begin="14400" from="I3C1" to="-I3A1" end="21599.77" number="174"/>
+    <flow id="flow_220" type="Truck" begin="14400" color="blue" from="I3C1" to="-I3A1" end="21599.92" number="10"/>
+    <flow id="flow_221" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="21599.00" number="339"/>
+    <flow id="flow_222" begin="14400" from="I3C2" to="-I3B1" via="-I3B2" end="21599.68" number="302"/>
+    <flow id="flow_223" type="Truck" begin="14400" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="21599.92" number="1"/>
+    <flow id="flow_224" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="21598.90" number="141"/>
+    <flow id="flow_225" begin="14400" from="I3C2" to="-I3D2" via="I3CD1" end="21599.91" number="39"/>
+    <flow id="flow_227" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I3D2" to="-I3A1" end="21598.99" number="971"/>
+    
+    <flow id="flow_228" begin="14400" from="I3D2" to="-I3A1" end="21599.59" number="711"/>
+    <flow id="flow_229" type="Truck" begin="14400" color="blue" from="I3D2" to="-I3A1" end="21599.86" number="76"/>
+    <flow id="flow_230" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="21598.96" number="68"/>
+    <flow id="flow_231" begin="14400" from="I3D2" to="-I3B1" via="I3DB1" end="21599.91" number="30"/>
+    <flow id="flow_232" type="Truck" begin="14400" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="21599.92" number="2"/>
+    <flow id="flow_233" type="DEFAULT_BIKETYPE" begin="14400" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="21599.00" number="413"/>
+    <flow id="flow_234" begin="14400" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="21599.86" number="119"/>
+    
+    <!-- DAY 2 PM -->
+    <flow id="flow_236" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="28797.85" number="1385"/>
+    <flow id="flow_237" begin="21600" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="28799.74" number="221"/>
+    <flow id="flow_246" begin="21600" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="28799.78" number="361"/>
+    <flow id="flow_247" type="Truck" begin="21600" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="28799.92" number="86"/>
+    <flow id="flow_248" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="28797.63" number="1066"/>
+    <flow id="flow_249" begin="21600" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="28799.40" number="325"/>
+    <flow id="flow_250" type="Truck" begin="21600" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="28799.95" number="87"/>
+    <flow id="flow_251" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="28797.23" number="1941"/>
+    <flow id="flow_252" begin="21600" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="28798.94" number="492"/>
+    <flow id="flow_253" type="Truck" begin="21600" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="28799.69" number="261"/>
+    <flow id="flow_254" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="28799.00" number="28"/>
+    <flow id="flow_255" begin="21600" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="28799.92" number="8"/>
+    <flow id="flow_238" type="Truck" begin="21600" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="28799.91" number="113"/>
+    <flow id="flow_257" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="28798.61" number="851"/>
+    <flow id="flow_258" begin="21600" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="28799.92" number="364"/>
+    <flow id="flow_259" type="Truck" begin="21600" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="28799.90" number="111"/>
+    <flow id="flow_260" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="28798.91" number="777"/>
+    <flow id="flow_261" begin="21600" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="28799.63" number="313"/>
+    <flow id="flow_262" type="Truck" begin="21600" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="28799.86" number="98"/>
+    <flow id="flow_263" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="28798.84" number="229"/>
+    <flow id="flow_264" begin="21600" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="28799.87" number="54"/>
+    <flow id="flow_265" type="Truck" begin="21600" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="28799.92" number="1"/>
+    <flow id="flow_239" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="28795.16" number="2657"/>
+    <flow id="flow_266" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="28797.63" number="1688"/>
+    <flow id="flow_267" begin="21600" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="28799.82" number="335"/>
+    <flow id="flow_268" type="Truck" begin="21600" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="28799.78" number="152"/>
+    <flow id="flow_269" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="28798.88" number="1166"/>
+    <flow id="flow_270" begin="21600" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="28799.88" number="254"/>
+    <flow id="flow_271" type="Truck" begin="21600" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="28799.89" number="84"/>
+    <flow id="flow_272" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="28798.84" number="916"/>
+    <flow id="flow_273" begin="21600" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="28799.80" number="203"/>
+    <flow id="flow_274" type="Truck" begin="21600" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="28799.90" number="57"/>
+    <flow id="flow_275" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="28798.38" number="1379"/>
+    <flow id="flow_240" begin="21600" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="28799.59" number="747"/>
+    <flow id="flow_276" begin="21600" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="28799.90" number="274"/>
+    <flow id="flow_277" type="Truck" begin="21600" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="28799.87" number="163"/>
+    <flow id="flow_278" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="28798.93" number="251"/>
+    <flow id="flow_279" begin="21600" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="28799.86" number="98"/>
+    <flow id="flow_280" type="Truck" begin="21600" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="28799.91" number="39"/>
+    <flow id="flow_281" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="28798.84" number="307"/>
+    <flow id="flow_282" begin="21600" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="28799.92" number="65"/>
+    <flow id="flow_283" type="Truck" begin="21600" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="28799.91" number="18"/>
+    <flow id="flow_284" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="28797.80" number="1389"/>
+    <flow id="flow_285" begin="21600" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="28799.86" number="289"/>
+    <flow id="flow_241" type="Truck" begin="21600" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="28799.84" number="217"/>
+    <flow id="flow_286" type="Truck" begin="21600" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="28799.86" number="157"/>
+    <flow id="flow_287" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="28799.01" number="270"/>
+    <flow id="flow_288" begin="21600" from="I3A1" to="-I3B1" via="-I3B2" end="28799.76" number="229"/>
+    <flow id="flow_289" type="Truck" begin="21600" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="28799.89" number="55"/>
+    <flow id="flow_290" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="28798.72" number="911"/>
+    <flow id="flow_291" begin="21600" from="-I2D1" to="-I3C2" via="I3AC1" end="28799.63" number="375"/>
+    <flow id="flow_292" type="Truck" begin="21600" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="28799.89" number="63"/>
+    <flow id="flow_293" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I3A1" to="-I3D2" end="28797.73" number="1857"/>
+    <flow id="flow_294" begin="21600" from="I3A1" to="-I3D2" end="28799.64" number="840"/>
+    <flow id="flow_295" type="Truck" begin="21600" color="blue" from="I3A1" to="-I3D2" end="28799.74" number="242"/>
+    <flow id="flow_242" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="28797.60" number="981"/>
+    <flow id="flow_296" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I3C1" to="-I3A1" end="28798.63" number="648"/>
+    <flow id="flow_297" begin="21600" from="I3C1" to="-I3A1" end="28799.81" number="336"/>
+    <flow id="flow_298" type="Truck" begin="21600" color="blue" from="I3C1" to="-I3A1" end="28799.86" number="95"/>
+    <flow id="flow_299" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="28798.96" number="535"/>
+    <flow id="flow_300" begin="21600" from="I3C2" to="-I3B1" via="-I3B2" end="28799.86" number="196"/>
+    <flow id="flow_301" type="Truck" begin="21600" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="28799.90" number="25"/>
+    <flow id="flow_302" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="28798.38" number="646"/>
+    <flow id="flow_303" begin="21600" from="I3C2" to="-I3D2" via="I3CD1" end="28799.82" number="214"/>
+    <flow id="flow_304" type="Truck" begin="21600" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="28799.90" number="24"/>
+    <flow id="flow_305" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I3D2" to="-I3A1" end="28798.54" number="1228"/>
+    <flow id="flow_243" begin="21600" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="28799.50" number="340"/>
+    <flow id="flow_306" begin="21600" from="I3D2" to="-I3A1" end="28799.92" number="460"/>
+    <flow id="flow_307" type="Truck" begin="21600" color="blue" from="I3D2" to="-I3A1" end="28799.90" number="100"/>
+    <flow id="flow_308" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="28799.01" number="315"/>
+    <flow id="flow_309" begin="21600" from="I3D2" to="-I3B1" via="I3DB1" end="28799.78" number="139"/>
+    <flow id="flow_310" type="Truck" begin="21600" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="28799.90" number="25"/>
+    <flow id="flow_311" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="28798.73" number="758"/>
+    <flow id="flow_312" begin="21600" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="28799.82" number="428"/>
+    <flow id="flow_313" type="Truck" begin="21600" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="28799.91" number="68"/>
+    <flow id="flow_DAY2PM_99" type="Truck" begin="21600" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="28799.94" number="31"/>
+    <flow id="flow_245" type="DEFAULT_BIKETYPE" begin="21600" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="28798.53" number="919"/>
+
+<!-- DAY 3 AM -->
+<flow id="flow_314" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="35995.46" number="3709"/>
+    <flow id="flow_315" begin="28800" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="35999.65" number="1119"/>
+    <flow id="flow_324" begin="28800" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="35999.55" number="584"/>
+    <flow id="flow_325" type="Truck" begin="28800" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="35999.92" number="230"/>
+    <flow id="flow_326" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="35998.32" number="1424"/>
+    <flow id="flow_327" begin="28800" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="35999.42" number="332"/>
+    <flow id="flow_328" type="Truck" begin="28800" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="35999.92" number="178"/>
+    <flow id="flow_329" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="35993.03" number="4567"/>
+    <flow id="flow_330" begin="28800" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="35999.18" number="987"/>
+    <flow id="flow_331" type="Truck" begin="28800" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="35999.70" number="309"/>
+    <flow id="flow_332" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="35999.00" number="28"/>
+    <flow id="flow_333" begin="28800" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="35999.92" number="9"/>
+    <flow id="flow_316" type="Truck" begin="28800" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="35999.70" number="233"/>
+    <flow id="flow_335" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="35998.31" number="1190"/>
+    <flow id="flow_336" begin="28800" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="35999.87" number="579"/>
+    <flow id="flow_337" type="Truck" begin="28800" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="35999.87" number="186"/>
+    <flow id="flow_338" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="35998.90" number="815"/>
+    <flow id="flow_339" begin="28800" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="35999.71" number="312"/>
+    <flow id="flow_340" type="Truck" begin="28800" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="35999.90" number="111"/>
+    <flow id="flow_341" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="35998.95" number="165"/>
+    <flow id="flow_342" begin="28800" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="35999.91" number="33"/>
+    <flow id="flow_343" type="Truck" begin="28800" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="35999.92" number="9"/>
+    <flow id="flow_317" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="35988.38" number="9623"/>
+    <flow id="flow_344" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="35998.39" number="1014"/>
+    <flow id="flow_345" begin="28800" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="35999.71" number="216"/>
+    <flow id="flow_346" type="Truck" begin="28800" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="35999.92" number="73"/>
+    <flow id="flow_347" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="35998.23" number="889"/>
+    <flow id="flow_348" begin="28800" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="35999.81" number="192"/>
+    <flow id="flow_349" type="Truck" begin="28800" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="35999.87" number="64"/>
+    <flow id="flow_350" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="35998.86" number="943"/>
+    <flow id="flow_351" begin="28800" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="35999.80" number="200"/>
+    <flow id="flow_352" type="Truck" begin="28800" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="35999.92" number="52"/>
+    <flow id="flow_353" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="35998.14" number="1727"/>
+    <flow id="flow_318" begin="28800" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="35997.71" number="2711"/>
+    <flow id="flow_354" begin="28800" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="35999.91" number="343"/>
+    <flow id="flow_355" type="Truck" begin="28800" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="35999.89" number="263"/>
+    <flow id="flow_356" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="35998.97" number="438"/>
+    <flow id="flow_357" begin="28800" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="35999.87" number="207"/>
+    <flow id="flow_358" type="Truck" begin="28800" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="35999.92" number="11"/>
+    <flow id="flow_359" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="35998.83" number="284"/>
+    <flow id="flow_360" begin="28800" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="35999.89" number="67"/>
+    <flow id="flow_361" type="Truck" begin="28800" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="35999.92" number="9"/>
+    <flow id="flow_362" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="35998.91" number="723"/>
+    <flow id="flow_363" begin="28800" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="35999.78" number="152"/>
+    <flow id="flow_319" type="Truck" begin="28800" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="35999.68" number="404"/>
+    <flow id="flow_364" type="Truck" begin="28800" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="35999.84" number="85"/>
+    <flow id="flow_365" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="35998.84" number="440"/>
+    <flow id="flow_366" begin="28800" from="I3A1" to="-I3B1" via="-I3B2" end="35999.60" number="328"/>
+    <flow id="flow_367" type="Truck" begin="28800" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="35999.92" number="70"/>
+    <flow id="flow_368" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="35998.94" number="1789"/>
+    <flow id="flow_369" begin="28800" from="-I2D1" to="-I3C2" via="I3AC1" end="35999.42" number="696"/>
+    <flow id="flow_370" type="Truck" begin="28800" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="35999.83" number="89"/>
+    <flow id="flow_371" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I3A1" to="-I3D2" end="35994.60" number="4568"/>
+    <flow id="flow_372" begin="28800" from="I3A1" to="-I3D2" end="35998.75" number="1454"/>
+    <flow id="flow_373" type="Truck" begin="28800" color="blue" from="I3A1" to="-I3D2" end="35999.44" number="496"/>
+    <flow id="flow_320" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="35997.58" number="620"/>
+    <flow id="flow_374" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I3C1" to="-I3A1" end="35997.41" number="2412"/>
+    <flow id="flow_375" begin="28800" from="I3C1" to="-I3A1" end="35999.75" number="775"/>
+    <flow id="flow_376" type="Truck" begin="28800" color="blue" from="I3C1" to="-I3A1" end="35999.92" number="20"/>
+    <flow id="flow_377" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="35998.89" number="344"/>
+    <flow id="flow_378" begin="28800" from="I3C2" to="-I3B1" via="-I3B2" end="35999.85" number="350"/>
+    <flow id="flow_380" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="35998.83" number="974"/>
+    <flow id="flow_381" begin="28800" from="I3C2" to="-I3D2" via="I3CD1" end="35999.89" number="385"/>
+    <flow id="flow_382" type="Truck" begin="28800" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="35999.92" number="16"/>
+    <flow id="flow_383" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I3D2" to="-I3A1" end="35998.14" number="2393"/>
+    <flow id="flow_321" begin="28800" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="35999.50" number="242"/>
+    <flow id="flow_384" begin="28800" from="I3D2" to="-I3A1" end="35999.17" number="1047"/>
+    <flow id="flow_385" type="Truck" begin="28800" color="blue" from="I3D2" to="-I3A1" end="35999.78" number="171"/>
+    <flow id="flow_386" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="35998.79" number="403"/>
+    <flow id="flow_387" begin="28800" from="I3D2" to="-I3B1" via="I3DB1" end="35999.84" number="188"/>
+    <flow id="flow_388" type="Truck" begin="28800" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="35999.92" number="6"/>
+    <flow id="flow_389" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="35998.84" number="747"/>
+    <flow id="flow_390" begin="28800" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="35999.50" number="770"/>
+    <flow id="flow_391" type="Truck" begin="28800" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="35999.90" number="79"/>
+    <flow id="flow_322" type="Truck" begin="28800" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="35999.93" number="54"/>
+    <flow id="flow_323" type="DEFAULT_BIKETYPE" begin="28800" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="35997.96" number="2280"/>
+
+<!-- DAY 3 PM -->
+    <flow id="flow_q30392" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="43196.29" number="3538"/>
+    <flow id="flow_w30393" begin="36000" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="43199.22" number="1009"/>
+    <flow id="flow_e30402" begin="36000" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="43199.89" number="606"/>
+    <flow id="flow_r30403" type="Truck" begin="36000" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="43199.76" number="262"/>
+    <flow id="flow_t30404" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="43198.24" number="1120"/>
+    <flow id="flow_y30405" begin="36000" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="43199.28" number="324"/>
+    <flow id="flow_u30406" type="Truck" begin="36000" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="43199.94" number="106"/>
+    <flow id="flow_i30407" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="43195.25" number="5318"/>
+    <flow id="flow_o30408" begin="36000" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="43198.14" number="1727"/>
+    <flow id="flow_p30409" type="Truck" begin="36000" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="43199.67" number="510"/>
+    <flow id="flow_a30410" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="43199.02" number="43"/>
+    <flow id="flow_s30411" begin="36000" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="43199.92" number="12"/>
+    <flow id="flow_d30394" type="Truck" begin="36000" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="43199.88" number="239"/>
+    <flow id="flow_f30413" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="43197.89" number="1637"/>
+    <flow id="flow_g30414" begin="36000" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="43199.19" number="899"/>
+    <flow id="flow_h30415" type="Truck" begin="36000" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="43199.89" number="126"/>
+    <flow id="flow_j30416" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="43198.50" number="750"/>
+    <flow id="flow_k30417" begin="36000" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="43199.64" number="278"/>
+    <flow id="flow_l30418" type="Truck" begin="36000" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="43199.90" number="44"/>
+    <flow id="flow_z30419" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="43198.98" number="175"/>
+    <flow id="flow_x30420" begin="36000" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="43199.89" number="59"/>
+    <flow id="flow_c30421" type="Truck" begin="36000" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="43199.92" number="14"/>
+    <flow id="flow_v30395" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="43188.98" number="8975"/>
+    <flow id="flow_b30422" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="43198.20" number="1116"/>
+    <flow id="flow_n30423" begin="36000" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="43199.58" number="437"/>
+    <flow id="flow_m30424" type="Truck" begin="36000" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="43199.74" number="211"/>
+    <flow id="flow_30425" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="43198.72" number="903"/>
+    <flow id="flow_q30426" begin="36000" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="43199.83" number="426"/>
+    <flow id="flow_w30427" type="Truck" begin="36000" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="43199.91" number="113"/>
+    <flow id="flow_e30428" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="43198.14" number="1042"/>
+    <flow id="flow_r30429" begin="36000" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="43199.63" number="482"/>
+    <flow id="flow_t30430" type="Truck" begin="36000" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="43199.87" number="138"/>
+    <flow id="flow_yf30431" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="43198.05" number="1936"/>
+    <flow id="flow_u30396" begin="36000" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="43199.00" number="2097"/>
+    <flow id="flow_ib30431" begin="36000" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="43199.81" number="734"/>
+    <flow id="flow_o30432" type="Truck" begin="36000" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="43199.65" number="354"/>
+    <flow id="flow_p30433" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="43198.99" number="337"/>
+    <flow id="flow_a304334" begin="36000" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="43199.90" number="158"/>
+    <flow id="flow_s30435" type="Truck" begin="36000" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="43199.92" number="13"/>
+    <flow id="flow_d30436" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="43198.99" number="203"/>
+    <flow id="flow_f30437" begin="36000" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="43199.54" number="994"/>
+    <flow id="flow_g30438" type="Truck" begin="36000" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="43199.92" number="9"/>
+    <flow id="flow_h30439" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="43198.48" number="709"/>
+    <flow id="flow_j30440" begin="36000" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="43199.92" number="344"/>
+    <flow id="flow_k3k0397" type="Truck" begin="36000" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="43199.56" number="532"/>
+    <flow id="flow_l3l0441" type="Truck" begin="36000" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="43199.92" number="35"/>
+    <flow id="flow_z30442" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="43198.91" number="357"/>
+    <flow id="flow_x30443" begin="36000" from="I3A1" to="-I3B1" via="-I3B2" end="43199.60" number="400"/>
+    <flow id="flow_c30444" type="Truck" begin="36000" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="43199.92" number="11"/>
+    <flow id="flow_v30445" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="43198.40" number="1588"/>
+    <flow id="flowb_b30446" begin="36000" from="-I2D1" to="-I3C2" via="I3AC1" end="43199.82" number="597"/>
+    <flow id="flow_n30447" type="Truck" begin="36000" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="43199.91" number="34"/>
+    <flow id="flow_m30448" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I3A1" to="-I3D2" end="43198.30" number="2283"/>
+    <flow id="flow_q30449" begin="36000" from="I3A1" to="-I3D2" end="43199.26" number="1071"/>
+    <flow id="flow_w30450" type="Truck" begin="36000" color="blue" from="I3A1" to="-I3D2" end="43199.87" number="64"/>
+    <flow id="flow_e30398" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="43196.96" number="929"/>
+    <flow id="flow_r30451" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I3C1" to="-I3A1" end="43198.97" number="1174"/>
+    <flow id="flow_t30452" begin="36000" from="I3C1" to="-I3A1" end="43199.65" number="926"/>
+    <flow id="flow_y30453" type="Truck" begin="36000" color="blue" from="I3C1" to="-I3A1" end="43199.92" number="16"/>
+    <flow id="flow_u30454" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="43198.64" number="474"/>
+    <flow id="flow_i30455" begin="36000" from="I3C2" to="-I3B1" via="-I3B2" end="43199.87" number="297"/>
+    <flow id="flow_o30456" type="Truck" begin="36000" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="43199.91" number="15"/>
+    <flow id="flow_p30457" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="43198.62" number="780"/>
+    <flow id="flow_a30458" begin="36000" from="I3C2" to="-I3D2" via="I3CD1" end="43199.83" number="370"/>
+    <flow id="flow_s30459" type="Truck" begin="36000" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="43199.92" number="4"/>
+    <flow id="flow_d30460" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I3D2" to="-I3A1" end="43192.58" number="6623"/>
+    <flow id="flow_f30399" begin="36000" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="43199.68" number="287"/>
+    <flow id="flow_g30461" begin="36000" from="I3D2" to="-I3A1" end="43199.84" number="1245"/>
+    <flow id="flow_h30462" type="Truck" begin="36000" color="blue" from="I3D2" to="-I3A1" end="43199.82" number="268"/>
+    <flow id="flow_j30463" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="43198.88" number="375"/>
+    <flow id="flow_k30464" begin="36000" from="I3D2" to="-I3B1" via="I3DB1" end="43199.81" number="224"/>
+    <flow id="flow_l30465" type="Truck" begin="36000" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="43199.91" number="15"/>
+    <flow id="flow_z30466" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="43198.90" number="772"/>
+    <flow id="flow_x30467" begin="36000" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="43199.40" number="568"/>
+    <flow id="flow_c30468" type="Truck" begin="36000" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="43199.88" number="47"/>
+    <flow id="flow_vv30400" type="Truck" begin="36000" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="43199.92" number="91"/>
+    <flow id="flow_b30401" type="DEFAULT_BIKETYPE" begin="36000" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="43198.19" number="2397"/>
+
+<!-- DAY 4 AM -->
+<flow id="flow_g469" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="50392.75" number="3538"/>
+    <flow id="flow_g470" begin="43200" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="50399.22" number="1009"/>
+    <flow id="flow_g479" begin="43200" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="50399.89" number="606"/>
+    <flow id="flow_g480" type="Truck" begin="43200" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="50399.76" number="262"/>
+    <flow id="flow_g481" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="50398.24" number="1120"/>
+    <flow id="flow_g482" begin="43200" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="50399.28" number="324"/>
+    <flow id="flow_g483" type="Truck" begin="43200" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="50399.84" number="106"/>
+    <flow id="flow_g484" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="50389.94" number="5318"/>
+    <flow id="flow_g485" begin="43200" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="50398.14" number="1727"/>
+    <flow id="flow_g486" type="Truck" begin="43200" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="50399.67" number="510"/>
+    <flow id="flow_g487" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="50399.02" number="43"/>
+    <flow id="flow_g488" begin="43200" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="50399.92" number="12"/>
+    <flow id="flow_g471" type="Truck" begin="43200" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="50399.88" number="239"/>
+    <flow id="flow_g490" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="50397.89" number="1637"/>
+    <flow id="flow_g491" begin="43200" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="50398.29" number="899"/>
+    <flow id="flow_g492" type="Truck" begin="43200" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="50399.77" number="126"/>
+    <flow id="flow_g493" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="50398.50" number="750"/>
+    <flow id="flow_g494" begin="43200" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="50399.37" number="278"/>
+    <flow id="flow_g495" type="Truck" begin="43200" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="50399.90" number="44"/>
+    <flow id="flow_g496" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="50398.98" number="175"/>
+    <flow id="flow_g497" begin="43200" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="50399.89" number="59"/>
+    <flow id="flow_g498" type="Truck" begin="43200" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="50399.92" number="14"/>
+    <flow id="flow_g472" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="50388.98" number="8975"/>
+    <flow id="flow_g499" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="50398.20" number="1116"/>
+    <flow id="flow_g500" begin="43200" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="50399.58" number="437"/>
+    <flow id="flow_g501" type="Truck" begin="43200" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="50399.53" number="211"/>
+    <flow id="flow_g502" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="50398.72" number="903"/>
+    <flow id="flow_g503" begin="43200" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="50399.83" number="426"/>
+    <flow id="flow_g504" type="Truck" begin="43200" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="50399.91" number="113"/>
+    <flow id="flow_g505" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="50398.14" number="1042"/>
+    <flow id="flow_g506" begin="43200" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="50399.15" number="482"/>
+    <flow id="flow_g507" type="Truck" begin="43200" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="50399.74" number="138"/>
+    <flow id="flow_g508" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="50398.05" number="1936"/>
+    <flow id="flow_g473" begin="43200" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="50396.90" number="2097"/>
+    <flow id="flow_g509" begin="43200" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="50399.81" number="734"/>
+    <flow id="flow_g510" type="Truck" begin="43200" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="50399.30" number="354"/>
+    <flow id="flow_g511" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="50398.66" number="337"/>
+    <flow id="flow_g512" begin="43200" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="50399.74" number="158"/>
+    <flow id="flow_g513" type="Truck" begin="43200" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="50399.92" number="13"/>
+    <flow id="flow_g514" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="50398.99" number="203"/>
+    <flow id="flow_g515" begin="43200" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="50398.55" number="994"/>
+    <flow id="flow_g516" type="Truck" begin="43200" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="50399.92" number="9"/>
+    <flow id="flow_g517" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="50398.48" number="709"/>
+    <flow id="flow_g518" begin="43200" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="50399.92" number="344"/>
+    <flow id="flow_g474" type="Truck" begin="43200" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="50399.56" number="532"/>
+    <flow id="flow_g519" type="Truck" begin="43200" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="50399.92" number="35"/>
+    <flow id="flow_g520" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="50398.91" number="357"/>
+    <flow id="flow_g521" begin="43200" from="I3A1" to="-I3B1" via="-I3B2" end="50399.60" number="400"/>
+    <flow id="flow_g522" type="Truck" begin="43200" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="50399.92" number="11"/>
+    <flow id="flow_g523" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="50396.82" number="1588"/>
+    <flow id="flow_g524" begin="43200" from="-I2D1" to="-I3C2" via="I3AC1" end="50399.82" number="597"/>
+    <flow id="flow_g525" type="Truck" begin="43200" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="50399.91" number="34"/>
+    <flow id="flow_g526" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I3A1" to="-I3D2" end="50398.30" number="2283"/>
+    <flow id="flow_g527" begin="43200" from="I3A1" to="-I3D2" end="50398.19" number="1071"/>
+    <flow id="flow_g528" type="Truck" begin="43200" color="blue" from="I3A1" to="-I3D2" end="50399.81" number="64"/>
+    <flow id="flow_g475" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="50396.03" number="929"/>
+    <flow id="flow_g529" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I3C1" to="-I3A1" end="50398.97" number="1174"/>
+    <flow id="flow_g530" begin="43200" from="I3C1" to="-I3A1" end="50399.65" number="926"/>
+    <flow id="flow_g531" type="Truck" begin="43200" color="blue" from="I3C1" to="-I3A1" end="50399.92" number="16"/>
+    <flow id="flow_g532" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="50398.64" number="474"/>
+    <flow id="flow_g533" begin="43200" from="I3C2" to="-I3B1" via="-I3B2" end="50399.58" number="297"/>
+    <flow id="flow_g534" type="Truck" begin="43200" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="50399.91" number="15"/>
+    <flow id="flow_g535" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="50398.62" number="780"/>
+    <flow id="flow_g536" begin="43200" from="I3C2" to="-I3D2" via="I3CD1" end="50399.83" number="370"/>
+    <flow id="flow_g537" type="Truck" begin="43200" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="50399.92" number="4"/>
+    <flow id="flow_g538" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I3D2" to="-I3A1" end="50392.58" number="6623"/>
+    <flow id="flow_g476" begin="43200" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="50399.40" number="287"/>
+    <flow id="flow_g539" begin="43200" from="I3D2" to="-I3A1" end="50399.84" number="1245"/>
+    <flow id="flow_g540" type="Truck" begin="43200" color="blue" from="I3D2" to="-I3A1" end="50399.82" number="268"/>
+    <flow id="flow_g541" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="50398.88" number="375"/>
+    <flow id="flow_g542" begin="43200" from="I3D2" to="-I3B1" via="I3DB1" end="50399.81" number="224"/>
+    <flow id="flow_g543" type="Truck" begin="43200" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="50399.91" number="15"/>
+    <flow id="flow_g544" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="50398.90" number="772"/>
+    <flow id="flow_g545" begin="43200" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="50399.40" number="568"/>
+    <flow id="flow_g546" type="Truck" begin="43200" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="50399.84" number="47"/>
+    <flow id="flow_g477" type="Truck" begin="43200" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="50399.92" number="91"/>
+    <flow id="flow_g478" type="DEFAULT_BIKETYPE" begin="43200" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="50395.79" number="2397"/>
+
+<!-- DAY 4 PM -->
+<flow id="flow_h547" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="57598.30" number="1877"/>
+    <flow id="flow_h548" begin="50400" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="57599.76" number="572"/>
+    <flow id="flow_h557" begin="50400" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="57599.83" number="213"/>
+    <flow id="flow_h558" type="Truck" begin="50400" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="57599.92" number="115"/>
+    <flow id="flow_h559" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="57598.19" number="964"/>
+    <flow id="flow_h560" begin="50400" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="57599.34" number="291"/>
+    <flow id="flow_h561" type="Truck" begin="50400" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="57599.89" number="116"/>
+    <flow id="flow_h562" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="57592.91" number="4773"/>
+    <flow id="flow_h563" begin="50400" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="57598.28" number="1258"/>
+    <flow id="flow_h564" type="Truck" begin="50400" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="57599.37" number="501"/>
+    <flow id="flow_h565" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="57599.01" number="63"/>
+    <flow id="flow_h566" begin="50400" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="57599.92" number="28"/>
+    <flow id="flow_h549" type="Truck" begin="50400" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="57599.76" number="262"/>
+    <flow id="flow_h567" type="Truck" begin="50400" color="blue" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="57599.92" number="1"/>
+    <flow id="flow_h568" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="57597.98" number="1067"/>
+    <flow id="flow_h569" begin="50400" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="57599.71" number="321"/>
+    <flow id="flow_h571" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="57598.62" number="697"/>
+    <flow id="flow_h572" begin="50400" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="57599.83" number="319"/>
+    <flow id="flow_h573" type="Truck" begin="50400" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="57599.84" number="94"/>
+    <flow id="flow_h574" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="57598.76" number="279"/>
+    <flow id="flow_h575" begin="50400" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="57599.86" number="95"/>
+    <flow id="flow_h576" type="Truck" begin="50400" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="57599.92" number="26"/>
+    <flow id="flow_h550" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="57593.42" number="3252"/>
+    <flow id="flow_h578" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="57599.00" number="1356"/>
+    <flow id="flow_h579" begin="50400" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="57599.68" number="604"/>
+    <flow id="flow_h580" type="Truck" begin="50400" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="57599.86" number="196"/>
+    <flow id="flow_h581" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="57598.58" number="616"/>
+    <flow id="flow_h582" begin="50400" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="57599.83" number="319"/>
+    <flow id="flow_h583" type="Truck" begin="50400" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="57599.92" number="92"/>
+    <flow id="flow_h584" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="57598.23" number="796"/>
+    <flow id="flow_h585" begin="50400" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="57599.60" number="400"/>
+    <flow id="flow_h586" type="Truck" begin="50400" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="57599.88" number="125"/>
+    <flow id="flow_h587" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="57597.70" number="1584"/>
+    <flow id="flow_h551" begin="50400" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="57599.28" number="905"/>
+    <flow id="flow_h588" begin="50400" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="57599.36" number="649"/>
+    <flow id="flow_h589" type="Truck" begin="50400" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="57599.67" number="255"/>
+    <flow id="flow_h590" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="57598.88" number="441"/>
+    <flow id="flow_h591" begin="50400" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="57599.82" number="214"/>
+    <flow id="flow_h592" type="Truck" begin="50400" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="57599.90" number="37"/>
+    <flow id="flow_h593" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="57598.88" number="225"/>
+    <flow id="flow_h594" begin="50400" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="57599.91" number="103"/>
+    <flow id="flow_h595" type="Truck" begin="50400" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="57599.92" number="6"/>
+    <flow id="flow_h596" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="57598.48" number="844"/>
+    <flow id="flow_h597" begin="50400" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="57599.70" number="412"/>
+    <flow id="flow_h552" type="Truck" begin="50400" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="57599.85" number="243"/>
+    <flow id="flow_h598" type="Truck" begin="50400" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="57599.89" number="116"/>
+    <flow id="flow_h599" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="57598.55" number="491"/>
+    <flow id="flow_h600" begin="50400" from="I3A1" to="-I3B1" via="-I3B2" end="57599.68" number="259"/>
+    <flow id="flow_h601" type="Truck" begin="50400" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="57599.90" number="79"/>
+    <flow id="flow_h602" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="57598.90" number="1793"/>
+    <flow id="flow_h603" begin="50400" from="-I2D1" to="-I3C2" via="I3AC1" end="57599.42" number="576"/>
+    <flow id="flow_h604" type="Truck" begin="50400" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="57599.85" number="75"/>
+    <flow id="flow_h605" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I3A1" to="-I3D2" end="57597.20" number="1823"/>
+    <flow id="flow_h606" begin="50400" from="I3A1" to="-I3D2" end="57599.65" number="622"/>
+    <flow id="flow_h607" type="Truck" begin="50400" color="blue" from="I3A1" to="-I3D2" end="57599.81" number="154"/>
+    <flow id="flow_h553" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="57597.25" number="1068"/>
+    <flow id="flow_h608" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I3C1" to="-I3A1" end="57598.62" number="715"/>
+    <flow id="flow_h609" begin="50400" from="I3C1" to="-I3A1" end="57599.50" number="484"/>
+    <flow id="flow_h700" type="Truck" begin="50400" color="blue" from="I3C1" to="-I3A1" end="57599.89" number="36"/>
+    <flow id="flow_h701" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="57598.45" number="631"/>
+    <flow id="flow_h702" begin="50400" from="I3C2" to="-I3B1" via="-I3B2" end="57599.87" number="341"/>
+    <flow id="flow_h703" type="Truck" begin="50400" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="57599.89" number="77"/>
+    <flow id="flow_h704" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="57598.63" number="621"/>
+    <flow id="flow_h705" begin="50400" from="I3C2" to="-I3D2" via="I3CD1" end="57599.71" number="326"/>
+    <flow id="flow_h706" type="Truck" begin="50400" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="57599.92" number="10"/>
+    <flow id="flow_h707" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I3D2" to="-I3A1" end="57598.29" number="1815"/>
+    <flow id="flow_h554" begin="50400" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="57599.61" number="296"/>
+    <flow id="flow_h708" begin="50400" from="I3D2" to="-I3A1" end="57599.87" number="1023"/>
+    <flow id="flow_h709" type="Truck" begin="50400" color="blue" from="I3D2" to="-I3A1" end="57599.91" number="90"/>
+    <flow id="flow_h710" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="57598.85" number="366"/>
+    <flow id="flow_h711" begin="50400" from="I3D2" to="-I3B1" via="I3DB1" end="57599.91" number="206"/>
+    <flow id="flow_h712" type="Truck" begin="50400" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="57599.92" number="4"/>
+    <flow id="flow_h713" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="57598.99" number="609"/>
+    <flow id="flow_h714" begin="50400" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="57599.60" number="410"/>
+    <flow id="flow_h715" type="Truck" begin="50400" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="57599.92" number="65"/>
+    <flow id="flow_h555" type="Truck" begin="50400" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="57599.92" number="91"/>
+    <flow id="flow_h556" type="DEFAULT_BIKETYPE" begin="50400" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="57598.45" number="917"/>
+
+
+<!-- DAY 5 AM -->
+<flow id="flow_q716" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="64795.74" number="4126"/>
+    <flow id="flow_q717" begin="57600" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="64799.47" number="1176"/>
+    <flow id="flow_q726" begin="57600" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="64799.92" number="455"/>
+    <flow id="flow_q727" type="Truck" begin="57600" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="64799.88" number="127"/>
+    <flow id="flow_q728" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="64797.59" number="895"/>
+    <flow id="flow_q729" begin="57600" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="64799.55" number="489"/>
+    <flow id="flow_q730" type="Truck" begin="57600" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="64799.84" number="136"/>
+    <flow id="flow_q731" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="64794.75" number="5430"/>
+    <flow id="flow_q732" begin="57600" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="64799.20" number="1087"/>
+    <flow id="flow_q733" type="Truck" begin="57600" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="64798.84" number="916"/>
+    <flow id="flow_q734" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="64799.01" number="65"/>
+    <flow id="flow_q735" begin="57600" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="64799.92" number="23"/>
+    <flow id="flow_q718" type="Truck" begin="57600" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="64799.76" number="458"/>
+    <flow id="flow_q737" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="64799.00" number="127"/>
+    <flow id="flow_q738" begin="57600" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="64799.85" number="105"/>
+    <flow id="flow_q739" type="Truck" begin="57600" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="64799.92" number="1"/>
+    <flow id="flow_q740" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="64798.80" number="611"/>
+    <flow id="flow_q741" begin="57600" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="64799.82" number="266"/>
+    <flow id="flow_q742" type="Truck" begin="57600" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="64799.88" number="47"/>
+    <flow id="flow_q743" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="64799.00" number="127"/>
+    <flow id="flow_q744" begin="57600" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="64799.85" number="105"/>
+    <flow id="flow_q745" type="Truck" begin="57600" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="64799.92" number="1"/>
+    <flow id="flow_q719" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="64794.85" number="8289"/>
+    <flow id="flow_q746" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="64797.78" number="1319"/>
+    <flow id="flow_q747" begin="57600" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="64799.28" number="648"/>
+    <flow id="flow_q748" type="Truck" begin="57600" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="64799.85" number="175"/>
+    <flow id="flow_q749" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="64798.05" number="1144"/>
+    <flow id="flow_q750" begin="57600" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="64799.42" number="576"/>
+    <flow id="flow_q751" type="Truck" begin="57600" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="64799.84" number="159"/>
+    <flow id="flow_q752" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="64798.36" number="1012"/>
+    <flow id="flow_q753" begin="57600" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="64799.63" number="482"/>
+    <flow id="flow_q754" type="Truck" begin="57600" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="64799.83" number="145"/>
+    <flow id="flow_q755" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="64797.50" number="1973"/>
+    <flow id="flow_q720" begin="57600" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="64783.27" number="20065"/>
+    <flow id="flow_q756" begin="57600" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="64799.46" number="666"/>
+    <flow id="flow_q757" type="Truck" begin="57600" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="64799.61" number="330"/>
+    <flow id="flow_q758" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="64798.59" number="473"/>
+    <flow id="flow_q759" begin="57600" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="64799.92" number="161"/>
+    <flow id="flow_q760" type="Truck" begin="57600" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="64799.92" number="56"/>
+    <flow id="flow_q761" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="64798.99" number="578"/>
+    <flow id="flow_q762" begin="57600" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="64799.71" number="216"/>
+    <flow id="flow_q764" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="64798.92" number="305"/>
+    <flow id="flow_q765" begin="57600" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="64799.92" number="115"/>
+    <flow id="flow_q721" type="Truck" begin="57600" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="64799.82" number="647"/>
+    <flow id="flow_q767" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="64798.72" number="439"/>
+    <flow id="flow_q768" begin="57600" from="I3A1" to="-I3B1" via="-I3B2" end="64799.79" number="265"/>
+    <flow id="flow_q769" type="Truck" begin="57600" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="64799.92" number="4"/>
+    <flow id="flow_q770" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="64797.58" number="1502"/>
+    <flow id="flow_q771" begin="57600" from="-I2D1" to="-I3C2" via="I3AC1" end="64799.74" number="512"/>
+    <flow id="flow_q772" type="Truck" begin="57600" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="64799.92" number="40"/>
+    <flow id="flow_q773" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I3A1" to="-I3D2" end="64797.98" number="2413"/>
+    <flow id="flow_q774" begin="57600" from="I3A1" to="-I3D2" end="64799.55" number="1123"/>
+    <flow id="flow_q775" type="Truck" begin="57600" color="blue" from="I3A1" to="-I3D2" end="64799.91" number="169"/>
+    <flow id="flow_q722" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="64797.81" number="911"/>
+    <flow id="flow_q776" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I3C1" to="-I3A1" end="64798.55" number="1428"/>
+    <flow id="flow_q777" begin="57600" from="I3C1" to="-I3A1" end="64799.60" number="823"/>
+    <flow id="flow_q778" type="Truck" begin="57600" color="blue" from="I3C1" to="-I3A1" end="64799.92" number="26"/>
+    <flow id="flow_q779" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="64799.00" number="460"/>
+    <flow id="flow_q780" begin="57600" from="I3C2" to="-I3B1" via="-I3B2" end="64799.66" number="271"/>
+    <flow id="flow_q781" type="Truck" begin="57600" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="64799.92" number="16"/>
+    <flow id="flow_q782" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="64798.34" number="722"/>
+    <flow id="flow_q783" begin="57600" from="I3C2" to="-I3D2" via="I3CD1" end="64799.64" number="360"/>
+    <flow id="flow_q784" type="Truck" begin="57600" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="64799.90" number="50"/>
+    <flow id="flow_q785" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I3D2" to="-I3A1" end="64797.80" number="1825"/>
+    <flow id="flow_q723" begin="57600" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="64799.50" number="242"/>
+    <flow id="flow_q786" begin="57600" from="I3D2" to="-I3A1" end="64799.76" number="916"/>
+    <flow id="flow_q787" type="Truck" begin="57600" color="blue" from="I3D2" to="-I3A1" end="64799.84" number="106"/>
+    <flow id="flow_q788" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="64798.78" number="468"/>
+    <flow id="flow_q789" begin="57600" from="I3D2" to="-I3B1" via="I3DB1" end="64799.81" number="205"/>
+    <flow id="flow_q790" type="Truck" begin="57600" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="64799.92" number="9"/>
+    <flow id="flow_q791" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="64798.29" number="899"/>
+    <flow id="flow_q792" begin="57600" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="64799.78" number="562"/>
+    <flow id="flow_q793" type="Truck" begin="57600" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="64799.84" number="85"/>
+    <flow id="flow_q724" type="Truck" begin="57600" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="64799.89" number="116"/>
+    <flow id="flow_q725" type="DEFAULT_BIKETYPE" begin="57600" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="64797.10" number="1793"/>
+
+<!-- DAY 5 PM -->
+<flow id="flow_s794" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="71998.46" number="2472"/>
+    <flow id="flow_s795" begin="64800" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="71999.68" number="604"/>
+    <flow id="flow_s804" begin="64800" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="71999.68" number="246"/>
+    <flow id="flow_s805" type="Truck" begin="64800" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="71999.93" number="47"/>
+    <flow id="flow_s806" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="71998.07" number="741"/>
+    <flow id="flow_s807" begin="64800" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="71999.39" number="428"/>
+    <flow id="flow_s808" type="Truck" begin="64800" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="71999.90" number="100"/>
+    <flow id="flow_s809" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="71996.64" number="3760"/>
+    <flow id="flow_s810" begin="64800" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="71998.14" number="1526"/>
+    <flow id="flow_s811" type="Truck" begin="64800" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="71999.44" number="513"/>
+    <flow id="flow_s812" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="71999.01" number="78"/>
+    <flow id="flow_s813" begin="64800" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="71999.91" number="31"/>
+    <flow id="flow_s796" type="Truck" begin="64800" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="71999.71" number="312"/>
+    <flow id="flow_s815" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="71998.97" number="219"/>
+    <flow id="flow_s816" begin="64800" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="71999.84" number="106"/>
+    <flow id="flow_s818" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="71998.88" number="711"/>
+    <flow id="flow_s819" begin="64800" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="71999.83" number="273"/>
+    <flow id="flow_s820" type="Truck" begin="64800" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="71999.90" number="50"/>
+    <flow id="flow_s821" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="71998.97" number="219"/>
+    <flow id="flow_s822" begin="64800" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="71999.84" number="106"/>
+    <flow id="flow_s823" type="Truck" begin="64800" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="71999.92" number="1"/>
+    <flow id="flow_s797" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="71995.19" number="1997"/>
+    <flow id="flow_s824" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="71998.87" number="1532"/>
+    <flow id="flow_s825" begin="64800" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="71999.26" number="730"/>
+    <flow id="flow_s826" type="Truck" begin="64800" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="71999.89" number="218"/>
+    <flow id="flow_s827" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="71998.31" number="757"/>
+    <flow id="flow_s828" begin="64800" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="71999.65" number="376"/>
+    <flow id="flow_s829" type="Truck" begin="64800" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="71999.91" number="103"/>
+    <flow id="flow_s830" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="71998.72" number="926"/>
+    <flow id="flow_s831" begin="64800" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="71999.76" number="355"/>
+    <flow id="flow_s832" type="Truck" begin="64800" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="71999.87" number="93"/>
+    <flow id="flow_s833" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="71998.46" number="1664"/>
+    <flow id="flow_s798" begin="64800" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="71999.22" number="677"/>
+    <flow id="flow_s834" begin="64800" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="71999.52" number="566"/>
+    <flow id="flow_s835" type="Truck" begin="64800" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="71999.81" number="224"/>
+    <flow id="flow_s836" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="71998.67" number="359"/>
+    <flow id="flow_s837" begin="64800" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="71999.89" number="131"/>
+    <flow id="flow_s838" type="Truck" begin="64800" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="71999.92" number="20"/>
+    <flow id="flow_s839" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="71998.67" number="482"/>
+    <flow id="flow_s840" begin="64800" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="71999.77" number="183"/>
+    <flow id="flow_s842" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="71998.84" number="307"/>
+    <flow id="flow_s843" begin="64800" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="71999.82" number="107"/>
+    <flow id="flow_s799" type="Truck" begin="64800" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="71999.77" number="189"/>
+    <flow id="flow_s844" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="71998.86" number="451"/>
+    <flow id="flow_s845" begin="64800" from="I3A1" to="-I3B1" via="-I3B2" end="71999.63" number="371"/>
+    <flow id="flow_s846" type="Truck" begin="64800" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="71999.92" number="46"/>
+    <flow id="flow_s847" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="71998.06" number="1542"/>
+    <flow id="flow_s848" begin="64800" from="-I2D1" to="-I3C2" via="I3AC1" end="71999.61" number="661"/>
+    <flow id="flow_s849" type="Truck" begin="64800" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="71999.89" number="42"/>
+    <flow id="flow_s850" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I3A1" to="-I3D2" end="71998.13" number="2072"/>
+    <flow id="flow_s851" begin="64800" from="I3A1" to="-I3D2" end="71999.55" number="736"/>
+    <flow id="flow_s852" type="Truck" begin="64800" color="blue" from="I3A1" to="-I3D2" end="71999.92" number="80"/>
+    <flow id="flow_s800" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="71997.14" number="795"/>
+    <flow id="flow_s853" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I3C1" to="-I3A1" end="71999.01" number="586"/>
+    <flow id="flow_s854" begin="64800" from="I3C1" to="-I3A1" end="71999.76" number="393"/>
+    <flow id="flow_s855" type="Truck" begin="64800" color="blue" from="I3C1" to="-I3A1" end="71999.88" number="47"/>
+    <flow id="flow_s856" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="71998.60" number="573"/>
+    <flow id="flow_s857" begin="64800" from="I3C2" to="-I3B1" via="-I3B2" end="71999.56" number="591"/>
+    <flow id="flow_s858" type="Truck" begin="64800" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="71999.87" number="69"/>
+    <flow id="flow_s859" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="71999.02" number="804"/>
+    <flow id="flow_s860" begin="64800" from="I3C2" to="-I3D2" via="I3CD1" end="71999.57" number="377"/>
+    <flow id="flow_s861" type="Truck" begin="64800" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="71999.92" number="19"/>
+    <flow id="flow_s862" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I3D2" to="-I3A1" end="71997.73" number="1857"/>
+    <flow id="flow_s801" begin="64800" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="71999.52" number="221"/>
+    <flow id="flow_s863" begin="64800" from="I3D2" to="-I3A1" end="71999.87" number="965"/>
+    <flow id="flow_s864" type="Truck" begin="64800" color="blue" from="I3D2" to="-I3A1" end="71999.86" number="76"/>
+    <flow id="flow_s865" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="71999.01" number="546"/>
+    <flow id="flow_s866" begin="64800" from="I3D2" to="-I3B1" via="I3DB1" end="71999.87" number="163"/>
+    <flow id="flow_s867" type="Truck" begin="64800" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="71999.90" number="24"/>
+    <flow id="flow_s868" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="71998.72" number="608"/>
+    <flow id="flow_s869" begin="64800" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="71999.75" number="359"/>
+    <flow id="flow_s870" type="Truck" begin="64800" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="71999.91" number="49"/>
+    <flow id="flow_s802" type="Truck" begin="64800" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="71999.93" number="82"/>
+    <flow id="flow_s803" type="DEFAULT_BIKETYPE" begin="64800" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="71998.46" number="728"/>
+
+
+<!-- DAY 6 AM -->
+<flow id="flow_x871" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="79197.68" number="4292"/>
+    <flow id="flow_x872" begin="72000" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="79199.23" number="973"/>
+    <flow id="flow_x881" begin="72000" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="79199.50" number="770"/>
+    <flow id="flow_x882" type="Truck" begin="72000" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="79199.89" number="464"/>
+    <flow id="flow_x883" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="79197.53" number="983"/>
+    <flow id="flow_x884" begin="72000" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="79199.42" number="431"/>
+    <flow id="flow_x885" type="Truck" begin="72000" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="79199.90" number="111"/>
+    <flow id="flow_x886" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="79192.76" number="5677"/>
+    <flow id="flow_x887" begin="72000" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="79198.06" number="2056"/>
+    <flow id="flow_x888" type="Truck" begin="72000" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="79198.96" number="918"/>
+    <flow id="flow_x889" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="79198.94" number="89"/>
+    <flow id="flow_x890" begin="72000" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="79199.91" number="21"/>
+    <flow id="flow_x873" type="Truck" begin="72000" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="79199.73" number="388"/>
+    <flow id="flow_x8x92" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="79198.20" number="1333"/>
+    <flow id="flow_x8x93" begin="72000" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="79199.62" number="548"/>
+    <flow id="flow_x8x94" type="Truck" begin="72000" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="79199.84" number="85"/>
+    <flow id="flow_x895" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="79198.65" number="577"/>
+    <flow id="flow_x896" begin="72000" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="79199.84" number="217"/>
+    <flow id="flow_x897" type="Truck" begin="72000" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="79199.91" number="45"/>
+    <flow id="flow_x898" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="79198.85" number="178"/>
+    <flow id="flow_x899" begin="72000" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="79199.87" number="51"/>
+    <flow id="flow_x874" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="79189.75" number="6867"/>
+    <flow id="flow_x901" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="79197.96" number="1064"/>
+    <flow id="flow_x902" begin="72000" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="79199.74" number="512"/>
+    <flow id="flow_x903" type="Truck" begin="72000" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="79199.84" number="146"/>
+    <flow id="flow_x904" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="79197.88" number="1439"/>
+    <flow id="flow_x905" begin="72000" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="79199.81" number="672"/>
+    <flow id="flow_x906" type="Truck" begin="72000" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="79199.81" number="176"/>
+    <flow id="flow_x907" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="79198.43" number="975"/>
+    <flow id="flow_x908" begin="72000" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="79199.81" number="308"/>
+    <flow id="flow_x909" type="Truck" begin="72000" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="79199.81" number="154"/>
+    <flow id="flow_x910" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="79197.66" number="2227"/>
+    <flow id="flow_x875" begin="72000" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="79199.63" number="2191"/>
+    <flow id="flow_x911" begin="72000" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="79199.30" number="797"/>
+    <flow id="flow_x912" type="Truck" begin="72000" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="79199.83" number="370"/>
+    <flow id="flow_x913" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="79198.88" number="405"/>
+    <flow id="flow_x9x14" begin="72000" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="79199.86" number="196"/>
+    <flow id="flow_x915" type="Truck" begin="72000" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="79199.91" number="33"/>
+    <flow id="flow_x916" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="79198.76" number="266"/>
+    <flow id="flow_x917" begin="72000" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="79199.88" number="127"/>
+    <flow id="flow_x918" type="Truck" begin="72000" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="79199.92" number="3"/>
+    <flow id="flow_x919" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="79198.48" number="670"/>
+    <flow id="flow_x920" begin="72000" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="79199.83" number="151"/>
+    <flow id="flow_x876" type="Truck" begin="72000" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="79199.65" number="622"/>
+    <flow id="flow_x921" type="Truck" begin="72000" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="79199.88" number="60"/>
+    <flow id="flow_x922" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="79198.62" number="858"/>
+    <flow id="flow_x923" begin="72000" from="I3A1" to="-I3B1" via="-I3B2" end="79199.91" number="429"/>
+    <flow id="flow_x924" type="Truck" begin="72000" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="79199.92" number="8"/>
+    <flow id="flow_x925" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="79197.80" number="1460"/>
+    <flow id="flow_x926" begin="72000" from="-I2D1" to="-I3C2" via="I3AC1" end="79199.53" number="491"/>
+    <flow id="flow_x927" type="Truck" begin="72000" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="79199.89" number="41"/>
+    <flow id="flow_x928" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I3A1" to="-I3D2" end="79196.90" number="2574"/>
+    <flow id="flow_x929" begin="72000" from="I3A1" to="-I3D2" end="79199.30" number="832"/>
+    <flow id="flow_x930" type="Truck" begin="72000" color="blue" from="I3A1" to="-I3D2" end="79199.81" number="192"/>
+    <flow id="flow_x877" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="79197.58" number="611"/>
+    <flow id="flow_x931" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I3C1" to="-I3A1" end="79197.13" number="4429"/>
+    <flow id="flow_x932" begin="72000" from="I3C1" to="-I3A1" end="79199.40" number="710"/>
+    <flow id="flow_x933" type="Truck" begin="72000" color="blue" from="I3C1" to="-I3A1" end="79199.92" number="46"/>
+    <flow id="flow_x934" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="79198.80" number="418"/>
+    <flow id="flow_x935" begin="72000" from="I3C2" to="-I3B1" via="-I3B2" end="79199.64" number="315"/>
+    <flow id="flow_x936" type="Truck" begin="72000" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="79199.90" number="37"/>
+    <flow id="flow_x937" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="79198.91" number="777"/>
+    <flow id="flow_x938" begin="72000" from="I3C2" to="-I3D2" via="I3CD1" end="79199.65" number="376"/>
+    <flow id="flow_x939" type="Truck" begin="72000" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="79199.91" number="17"/>
+    <flow id="flow_x940" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I3D2" to="-I3A1" end="79197.77" number="1561"/>
+    <flow id="flow_x878" begin="72000" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="79199.70" number="300"/>
+    <flow id="flow_x941" begin="72000" from="I3D2" to="-I3A1" end="79199.32" number="1116"/>
+    <flow id="flow_x942" type="Truck" begin="72000" color="blue" from="I3D2" to="-I3A1" end="79199.76" number="262"/>
+    <flow id="flow_x943" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="79198.97" number="438"/>
+    <flow id="flow_x944" begin="72000" from="I3D2" to="-I3B1" via="I3DB1" end="79199.34" number="2991"/>
+    <flow id="flow_x945" type="Truck" begin="72000" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="79199.88" number="47"/>
+    <flow id="flow_x946" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="79198.59" number="662"/>
+    <flow id="flow_x947" begin="72000" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="79199.83" number="407"/>
+    <flow id="flow_x948" type="Truck" begin="72000" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="79199.92" number="43"/>
+    <flow id="flow_x879" type="Truck" begin="72000" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="79199.91" number="103"/>
+    <flow id="flow_x880" type="DEFAULT_BIKETYPE" begin="72000" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="79197.83" number="1759"/>
+
+<!-- DAY 6 PM -->
+<flow id="flow_v849" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="86398.63" number="1242"/>
+    <flow id="flow_v850" begin="79200" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="86399.87" number="279"/>
+    <flow id="flow_v8v59" begin="79200" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="86399.92" number="299"/>
+    <flow id="flow_v8v60" type="Truck" begin="79200" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="86399.93" number="123"/>
+    <flow id="flow_v861" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="86397.83" number="1186"/>
+    <flow id="flow_v862" begin="79200" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="86399.40" number="338"/>
+    <flow id="flow_v863" type="Truck" begin="79200" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="86399.92" number="130"/>
+    <flow id="flow_v864" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="86395.65" number="3234"/>
+    <flow id="flow_v865" begin="79200" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="86398.63" number="1449"/>
+    <flow id="flow_v866" type="Truck" begin="79200" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="86399.40" number="676"/>
+    <flow id="flow_v867" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="86399.02" number="43"/>
+    <flow id="flow_v868" begin="79200" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="86399.91" number="15"/>
+    <flow id="flow_v851" type="Truck" begin="79200" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="86399.89" number="59"/>
+    <flow id="flow_v870" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="86399.02" number="804"/>
+    <flow id="flow_v871" begin="79200" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="86399.78" number="165"/>
+    <flow id="flow_v872" type="Truck" begin="79200" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="86399.92" number="70"/>
+    <flow id="flow_v873" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="86398.40" number="704"/>
+    <flow id="flow_v874" begin="79200" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="86399.89" number="303"/>
+    <flow id="flow_v875" type="Truck" begin="79200" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="86399.92" number="35"/>
+    <flow id="flow_v876" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="86398.86" number="253"/>
+    <flow id="flow_v877" begin="79200" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="86399.83" number="97"/>
+    <flow id="flow_v852" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="86394.79" number="2033"/>
+    <flow id="flow_v879" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="86399.02" number="1452"/>
+    <flow id="flow_v880" begin="79200" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="86399.84" number="680"/>
+    <flow id="flow_v881" type="Truck" begin="79200" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="86399.77" number="162"/>
+    <flow id="flow_v882" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="86398.96" number="841"/>
+    <flow id="flow_v883" begin="79200" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="86399.69" number="435"/>
+    <flow id="flow_v884" type="Truck" begin="79200" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="86399.78" number="152"/>
+    <flow id="flow_v885" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="86398.46" number="896"/>
+    <flow id="flow_v886" begin="79200" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="86399.73" number="212"/>
+    <flow id="flow_v887" type="Truck" begin="79200" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="86399.90" number="114"/>
+    <flow id="flow_v888" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="86398.49" number="1342"/>
+    <flow id="flow_v853" begin="79200" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="86399.52" number="663"/>
+    <flow id="flow_v889" begin="79200" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="86399.57" number="519"/>
+    <flow id="flow_v890" type="Truck" begin="79200" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="86399.69" number="248"/>
+    <flow id="flow_v891" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="86398.86" number="347"/>
+    <flow id="flow_v892" begin="79200" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="86399.91" number="143"/>
+    <flow id="flow_v893" type="Truck" begin="79200" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="86399.92" number="20"/>
+    <flow id="flow_v894" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="86398.91" number="255"/>
+    <flow id="flow_v895" begin="79200" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="86399.70" number="233"/>
+    <flow id="flow_v896" type="Truck" begin="79200" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="86399.91" number="15"/>
+    <flow id="flow_v897" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="86398.84" number="916"/>
+    <flow id="flow_v898" begin="79200" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="86399.89" number="385"/>
+    <flow id="flow_v854" type="Truck" begin="79200" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="86399.78" number="139"/>
+    <flow id="flow_v899" type="Truck" begin="79200" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="86399.77" number="174"/>
+    <flow id="flow_v900" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="86398.87" number="508"/>
+    <flow id="flow_v901" begin="79200" from="I3A1" to="-I3B1" via="-I3B2" end="86399.68" number="320"/>
+    <flow id="flow_v902" type="Truck" begin="79200" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="86399.91" number="45"/>
+    <flow id="flow_v903" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="86398.20" number="1369"/>
+    <flow id="flow_v904" begin="79200" from="-I2D1" to="-I3C2" via="I3AC1" end="86399.66" number="445"/>
+    <flow id="flow_v905" type="Truck" begin="79200" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="86399.87" number="64"/>
+    <flow id="flow_v906" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I3A1" to="-I3D2" end="86398.88" number="1749"/>
+    <flow id="flow_v907" begin="79200" from="I3A1" to="-I3D2" end="86399.67" number="570"/>
+    <flow id="flow_v908" type="Truck" begin="79200" color="blue" from="I3A1" to="-I3D2" end="86399.86" number="257"/>
+    <flow id="flow_v855" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="86397.60" number="600"/>
+    <flow id="flow_v909" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I3C1" to="-I3A1" end="86398.78" number="468"/>
+    <flow id="flow_v910" begin="79200" from="I3C1" to="-I3A1" end="86399.63" number="626"/>
+    <flow id="flow_v911" type="Truck" begin="79200" color="blue" from="I3C1" to="-I3A1" end="86399.89" number="101"/>
+    <flow id="flow_v912" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="86398.55" number="541"/>
+    <flow id="flow_v913" begin="79200" from="I3C2" to="-I3B1" via="-I3B2" end="86399.49" number="433"/>
+    <flow id="flow_v914" type="Truck" begin="79200" color="blue" from="I3C2" to="-I3B1" via="-I3B2" end="86399.90" number="32"/>
+    <flow id="flow_v915" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="86398.46" number="768"/>
+    <flow id="flow_v916" begin="79200" from="I3C2" to="-I3D2" via="I3CD1" end="86399.68" number="284"/>
+    <flow id="flow_v917" type="Truck" begin="79200" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="86399.91" number="45"/>
+    <flow id="flow_v918" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I3D2" to="-I3A1" end="86397.82" number="1405"/>
+    <flow id="flow_v856" begin="79200" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="86399.71" number="244"/>
+    <flow id="flow_v919" begin="79200" from="I3D2" to="-I3A1" end="86399.27" number="934"/>
+    <flow id="flow_v920" type="Truck" begin="79200" color="blue" from="I3D2" to="-I3A1" end="86399.74" number="221"/>
+    <flow id="flow_v921" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="86398.84" number="458"/>
+    <flow id="flow_v922" begin="79200" from="I3D2" to="-I3B1" via="I3DB1" end="86399.87" number="207"/>
+    <flow id="flow_v923" type="Truck" begin="79200" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="86399.89" number="36"/>
+    <flow id="flow_v924" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="86398.99" number="609"/>
+    <flow id="flow_v925" begin="79200" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="86399.74" number="338"/>
+    <flow id="flow_v926" type="Truck" begin="79200" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="86399.89" number="77"/>
+    <flow id="flow_v857" type="Truck" begin="79200" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="86399.92" number="107"/>
+    <flow id="flow_v858" type="DEFAULT_BIKETYPE" begin="79200" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="86397.89" number="1085"/>
+
+
+<!-- DAY 7 AM -->
+<flow id="flow_n927" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="93597.87" number="1402"/>
+    <flow id="flow_n928" begin="86400" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="93599.81" number="509"/>
+    <flow id="flow_n937" begin="86400" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="93599.75" number="258"/>
+    <flow id="flow_n938" type="Truck" begin="86400" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="93599.83" number="149"/>
+    <flow id="flow_n939" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="93597.73" number="969"/>
+    <flow id="flow_n940" begin="86400" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="93599.44" number="342"/>
+    <flow id="flow_n941" type="Truck" begin="86400" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="93599.84" number="188"/>
+    <flow id="flow_n942" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="93594.25" number="4083"/>
+    <flow id="flow_n943" begin="86400" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="93598.72" number="1317"/>
+    <flow id="flow_n944" type="Truck" begin="86400" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="93598.95" number="825"/>
+    <flow id="flow_n945" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="93599.02" number="24"/>
+    <flow id="flow_n946" begin="86400" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="93599.92" number="7"/>
+    <flow id="flow_n929" type="Truck" begin="86400" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="93599.87" number="187"/>
+    <flow id="flow_n947" type="Truck" begin="86400" color="blue" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="93599.92" number="1"/>
+    <flow id="flow_n948" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="93598.92" number="166"/>
+    <flow id="flow_n949" begin="86400" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="93599.88" number="47"/>
+    <flow id="flow_n950" type="Truck" begin="86400" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="93599.92" number="12"/>
+    <flow id="flow_n951" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="93598.75" number="374"/>
+    <flow id="flow_n952" begin="86400" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="93599.84" number="217"/>
+    <flow id="flow_n953" type="Truck" begin="86400" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="93599.92" number="7"/>
+    <flow id="flow_n954" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="93598.92" number="166"/>
+    <flow id="flow_n955" begin="86400" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="93599.88" number="47"/>
+    <flow id="flow_n956" type="Truck" begin="86400" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="93599.92" number="12"/>
+    <flow id="flow_n930" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="93594.67" number="2469"/>
+    <flow id="flow_n957" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="93598.55" number="852"/>
+    <flow id="flow_n958" begin="86400" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="93599.63" number="434"/>
+    <flow id="flow_n959" type="Truck" begin="86400" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="93599.92" number="104"/>
+    <flow id="flow_n960" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="93598.10" number="933"/>
+    <flow id="flow_n961" begin="86400" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="93599.47" number="784"/>
+    <flow id="flow_n962" type="Truck" begin="86400" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="93599.84" number="136"/>
+    <flow id="flow_n963" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="93598.75" number="561"/>
+    <flow id="flow_n964" begin="86400" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="93599.55" number="401"/>
+    <flow id="flow_n965" type="Truck" begin="86400" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="93599.89" number="41"/>
+    <flow id="flow_n966" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="93598.99" number="1445"/>
+    <flow id="flow_n931" begin="86400" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="93599.10" number="855"/>
+    <flow id="flow_n967" begin="86400" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="93599.49" number="983"/>
+    <flow id="flow_n968" type="Truck" begin="86400" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="93599.67" number="255"/>
+    <flow id="flow_n969" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="93598.95" number="330"/>
+    <flow id="flow_n970" begin="86400" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="93599.77" number="204"/>
+    <flow id="flow_n971" type="Truck" begin="86400" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="93599.91" number="31"/>
+    <flow id="flow_n972" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="93598.89" number="446"/>
+    <flow id="flow_n973" begin="86400" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="93599.90" number="274"/>
+    <flow id="flow_n974" type="Truck" begin="86400" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="93599.92" number="11"/>
+    <flow id="flow_n975" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="93598.44" number="669"/>
+    <flow id="flow_n976" begin="86400" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="93599.85" number="479"/>
+    <flow id="flow_n932" type="Truck" begin="86400" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="93599.83" number="273"/>
+    <flow id="flow_n977" type="Truck" begin="86400" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="93599.81" number="224"/>
+    <flow id="flow_n978" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="93598.85" number="267"/>
+    <flow id="flow_n979" begin="86400" from="I3A1" to="-I3B1" via="-I3B2" end="93599.80" number="200"/>
+    <flow id="flow_n980" type="Truck" begin="86400" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="93599.92" number="7"/>
+    <flow id="flow_n981" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="93598.48" number="680"/>
+    <flow id="flow_n982" begin="86400" from="-I2D1" to="-I3C2" via="I3AC1" end="93599.64" number="443"/>
+    <flow id="flow_n983" type="Truck" begin="86400" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="93599.86" number="72"/>
+    <flow id="flow_n984" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I3A1" to="-I3D2" end="93598.54" number="977"/>
+    <flow id="flow_n985" begin="86400" from="I3A1" to="-I3D2" end="93599.50" number="535"/>
+    <flow id="flow_n986" type="Truck" begin="86400" color="blue" from="I3A1" to="-I3D2" end="93599.84" number="188"/>
+    <flow id="flow_n933" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="93597.66" number="486"/>
+    <flow id="flow_n987" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I3C1" to="-I3A1" end="93598.72" number="512"/>
+    <flow id="flow_n988" begin="86400" from="I3C1" to="-I3A1" end="93599.63" number="313"/>
+    <flow id="flow_n989" type="Truck" begin="86400" color="blue" from="I3C1" to="-I3A1" end="93599.92" number="13"/>
+    <flow id="flow_n990" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="93599.01" number="390"/>
+    <flow id="flow_n991" begin="86400" from="I3C2" to="-I3B1" via="-I3B2" end="93599.70" number="309"/>
+    <flow id="flow_n993" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="93598.98" number="155"/>
+    <flow id="flow_n994" begin="86400" from="I3C2" to="-I3D2" via="I3CD1" end="93599.89" number="118"/>
+    <flow id="flow_n995" type="Truck" begin="86400" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="93599.92" number="7"/>
+    <flow id="flow_n996" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I3D2" to="-I3A1" end="93598.45" number="1277"/>
+    <flow id="flow_n934" begin="86400" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="93599.64" number="140"/>
+    <flow id="flow_n997" begin="86400" from="I3D2" to="-I3A1" end="93599.71" number="641"/>
+    <flow id="flow_n998" type="Truck" begin="86400" color="blue" from="I3D2" to="-I3A1" end="93599.87" number="156"/>
+    <flow id="flow_n999" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="93598.98" number="103"/>
+    <flow id="flow_n1000" begin="86400" from="I3D2" to="-I3B1" via="I3DB1" end="93599.87" number="69"/>
+    <flow id="flow_n1001" type="Truck" begin="86400" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="93599.92" number="5"/>
+    <flow id="flow_n1002" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="93598.57" number="523"/>
+    <flow id="flow_n1003" begin="86400" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="93599.92" number="280"/>
+    <flow id="flow_n1004" type="Truck" begin="86400" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="93599.91" number="15"/>
+    <flow id="flow_n935" type="Truck" begin="86400" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="93599.91" number="45"/>
+    <flow id="flow_n936" type="DEFAULT_BIKETYPE" begin="86400" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="93598.20" number="837"/>
+
+<!-- DAY 7 PM -->
+<flow id="flow_y1005" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="100797.87" number="1402"/>
+    <flow id="flow_y1006" begin="93600" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="100799.81" number="509"/>
+    <flow id="flow_y1015" begin="93600" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="100799.75" number="258"/>
+    <flow id="flow_y1016" type="Truck" begin="93600" color="blue" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="100799.83" number="149"/>
+    <flow id="flow_y1017" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="100797.73" number="969"/>
+    <flow id="flow_y1018" begin="93600" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="100799.44" number="342"/>
+    <flow id="flow_y1019" type="Truck" begin="93600" color="blue" from="I1C5" to="-I1B1" via="I1C6 I1CB1 I1CB2 I1CB3 I1CB4 I1CB5 I1CB6 I1CB7 -I1B2" end="100799.84" number="188"/>
+    <flow id="flow_y1020" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="100794.25" number="4083"/>
+    <flow id="flow_y1021" begin="93600" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="100798.72" number="1317"/>
+    <flow id="flow_y1yy022" type="Truck" begin="93600" color="blue" from="I1C5" to="-I1A1" via="I1C6 I1C7 I1C8 I1C9 I1C10 I1C11 I1C12 -I1A5 -I1A4 -I1A3 -I1A2" end="100798.95" number="825"/>
+    <flow id="flow_y1023" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="100799.02" number="24"/>
+    <flow id="flow_y1024" begin="93600" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="100799.92" number="7"/>
+    <flow id="flow_y1007" type="Truck" begin="93600" color="blue" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1B4 -I1B3 -I1B2" end="100799.87" number="187"/>
+    <flow id="flow_y1025" type="Truck" begin="93600" color="blue" from="I2A1" to="-I2A1" via="I2A2 I2A3 I2A4 I2A5 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="100799.92" number="1"/>
+    <flow id="flow_y1026" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="100798.92" number="166"/>
+    <flow id="flow_y1027" begin="93600" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="100799.88" number="47"/>
+    <flow id="flow_y1028" type="Truck" begin="93600" color="blue" from="I2A1" to="-I2B1" via="I2A2 I2A3 I2A4 I2A5 -I2B4 -I2B3 -I2B2" end="100799.92" number="12"/>
+    <flow id="flow_y1029" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="100798.75" number="374"/>
+    <flow id="flow_y1030" begin="93600" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="100799.84" number="217"/>
+    <flow id="flow_y1031" type="Truck" begin="93600" color="blue" from="I2A1" to="-I2C1" via="I2A2 I2A3 I2A4 I2AC1" end="100799.92" number="7"/>
+    <flow id="flow_y1032" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="100798.92" number="166"/>
+    <flow id="flow_y1033" begin="93600" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="100799.88" number="47"/>
+    <flow id="flow_y1034" type="Truck" begin="93600" color="blue" from="I2B1" to="-I2A1" via="I2BA1 I2BA2 -I2A5 -I2A4 -I2A3 -I2A2" end="100799.92" number="12"/>
+    <flow id="flow_y1008" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="100794.67" number="2469"/>
+    <flow id="flow_y1035" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="100798.55" number="852"/>
+    <flow id="flow_y1036" begin="93600" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="100799.63" number="434"/>
+    <flow id="flow_y1037" type="Truck" begin="93600" color="blue" from="I2B1" to="-I2C1" via="I2B2 I2B3 -I2C2" end="100799.92" number="104"/>
+    <flow id="flow_y1y038" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="100798.10" number="933"/>
+    <flow id="flow_y1y039" begin="93600" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="100799.47" number="784"/>
+    <flow id="flow_y1y040" type="Truck" begin="93600" color="blue" from="I2B1" to="-I2D1" via="I2B2 I2B3 -I2D5 -I2D4 -I2D3 -I2D2" end="100799.84" number="136"/>
+    <flow id="flow_y1041" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="100798.75" number="561"/>
+    <flow id="flow_y1042" begin="93600" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="100799.55" number="401"/>
+    <flow id="flow_y1043" type="Truck" begin="93600" color="blue" from="I2C1" to="-I2A1" via="I2C2 -I2A6 -I2A5 -I2A4 -I2A3 -I2A2" end="100799.89" number="41"/>
+    <flow id="flow_y1044" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="100798.99" number="1445"/>
+    <flow id="flow_y1009" begin="93600" from="I1A1" to="-I1B1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="100799.10" number="855"/>
+    <flow id="flow_y1045" begin="93600" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="100799.49" number="983"/>
+    <flow id="flow_y1046" type="Truck" begin="93600" color="blue" from="I2C1" to="-I2B1" via="I2C2 -I2B4 -I2B3 -I2B2" end="100799.67" number="255"/>
+    <flow id="flow_y1047" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="100798.95" number="330"/>
+    <flow id="flow_y1048" begin="93600" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="100799.77" number="204"/>
+    <flow id="flow_y1049" type="Truck" begin="93600" color="blue" from="I2C1" to="-I2D1" via="I2CD1 -I2D4 -I2D3 -I2D2" end="100799.91" number="31"/>
+    <flow id="flow_y1050" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="100798.89" number="446"/>
+    <flow id="flow_y1051" begin="93600" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="100799.90" number="274"/>
+    <flow id="flow_y1052" type="Truck" begin="93600" color="blue" from="I2D1" to="-I2B1" via="I2DB1 I2DB2 -I2B3 -I2B2" end="100799.92" number="11"/>
+    <flow id="flow_y1053" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="100798.44" number="669"/>
+    <flow id="flow_y1054" begin="93600" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="100799.85" number="479"/>
+    <flow id="flow_y1010" type="Truck" begin="93600" color="blue" from="I1A1" to="-I1C1" via="I1A2 I1A3 I1A4 I1A5 I1A6 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="100799.83" number="273"/>
+    <flow id="flow_y1055" type="Truck" begin="93600" color="blue" from="I2D1" to="-I2C1" via="I2D2 -I2C2" end="100799.81" number="224"/>
+    <flow id="flow_y1056" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I3A1" to="-I3B1" via="-I3B2" end="100798.85" number="267"/>
+    <flow id="flow_y1057" begin="93600" from="I3A1" to="-I3B1" via="-I3B2" end="100799.80" number="200"/>
+    <flow id="flow_y1058" type="Truck" begin="93600" color="blue" from="I3A1" to="-I3B1" via="-I3B2" end="100799.92" number="7"/>
+    <flow id="flow_y1y059" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="-I2D1" to="-I3C2" via="I3AC1" end="100798.48" number="680"/>
+    <flow id="flow_y1060" begin="93600" from="-I2D1" to="-I3C2" via="I3AC1" end="100799.64" number="443"/>
+    <flow id="flow_y1061" type="Truck" begin="93600" color="blue" from="-I2D1" to="-I3C2" via="I3AC1" end="100799.86" number="72"/>
+    <flow id="flow_y1062" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I3A1" to="-I3D2" end="100798.54" number="977"/>
+    <flow id="flow_y1063" begin="93600" from="I3A1" to="-I3D2" end="100799.50" number="535"/>
+    <flow id="flow_y1064" type="Truck" begin="93600" color="blue" from="I3A1" to="-I3D2" end="100799.84" number="188"/>
+    <flow id="flow_y1011" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="100797.66" number="486"/>
+    <flow id="flow_y1065" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I3C1" to="-I3A1" end="100798.72" number="512"/>
+    <flow id="flow_y1066" begin="93600" from="I3C1" to="-I3A1" end="100799.63" number="313"/>
+    <flow id="flow_y1067" type="Truck" begin="93600" color="blue" from="I3C1" to="-I3A1" end="100799.92" number="13"/>
+    <flow id="flow_y1068" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I3C2" to="-I3B1" via="-I3B2" end="100799.01" number="390"/>
+    <flow id="flow_y1069" begin="93600" from="I3C2" to="-I3B1" via="-I3B2" end="100799.70" number="309"/>
+    <flow id="flow_y1071" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I3C2" to="-I3D2" via="I3CD1" end="100798.98" number="155"/>
+    <flow id="flow_y1072" begin="93600" from="I3C2" to="-I3D2" via="I3CD1" end="100799.89" number="118"/>
+    <flow id="flow_y1073" type="Truck" begin="93600" color="blue" from="I3C2" to="-I3D2" via="I3CD1" end="100799.92" number="7"/>
+    <flow id="flow_1074" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I3D2" to="-I3A1" end="100798.45" number="1277"/>
+    <flow id="flow_y1012" begin="93600" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="100799.64" number="140"/>
+    <flow id="flow_y1075" begin="93600" from="I3D2" to="-I3A1" end="100799.71" number="641"/>
+    <flow id="flow_y1y076" type="Truck" begin="93600" color="blue" from="I3D2" to="-I3A1" end="100799.87" number="156"/>
+    <flow id="flow_y1077" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I3D2" to="-I3B1" via="I3DB1" end="100798.98" number="103"/>
+    <flow id="flow_y1078" begin="93600" from="I3D2" to="-I3B1" via="I3DB1" end="100799.87" number="69"/>
+    <flow id="flow_y1079" type="Truck" begin="93600" color="blue" from="I3D2" to="-I3B1" via="I3DB1" end="100799.92" number="5"/>
+    <flow id="flow_y1080" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="100798.57" number="523"/>
+    <flow id="flow_y1081" begin="93600" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="100799.92" number="280"/>
+    <flow id="flow_y1082" type="Truck" begin="93600" color="blue" from="I3D2" to="-I3C2" via="I3D1 -I3C1" end="100799.91" number="15"/>
+    <flow id="flow_y1013" type="Truck" begin="93600" color="blue" from="I1B1" to="-I1A1" via="I1BA1 I1BA2 I1BA3 I1BA4" end="100799.91" number="45"/>
+    <flow id="flow_y1014" type="DEFAULT_BIKETYPE" begin="93600" color="red" from="I1B1" to="-I1C1" via="I1B2 I1B3 I1B4 -I1C12 -I1C11 -I1C10 -I1C9 -I1C8 -I1C7 -I1C6 -I1C5 -I1C4 -I1C3 -I1C2" end="100798.20" number="837"/>
+
+
+
+
+
+
+
+
+
+</routes>
