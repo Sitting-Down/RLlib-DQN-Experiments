@@ -1,0 +1,353 @@
+D:\3-Coding\3.9.13(64)\python.exe D:/0-School/Testing/sumo-rl-master/experiments/dqn_time_step_train.py
+
+2022-08-19 10:25:21,357	INFO services.py:1470 -- View the Ray dashboard at http://127.0.0.1:8265
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 7ms, vehicles TOT 0 ACT 0 BUF 0)                      
+Warning: Flow 'flow_20' has no instances; will skip it.
+Warning: Flow 'flow_38' has no instances; will skip it.
+Warning: Flow 'flow_47' has no instances; will skip it.
+Warning: Flow 'flow_50' has no instances; will skip it.
+Warning: Flow 'flow_56' has no instances; will skip it.
+Warning: Flow 'flow_68' has no instances; will skip it.
+Warning: Flow 'flow_77' has no instances; will skip it.
+2022-08-19 10:25:25,684	INFO trainer.py:2332 -- Your framework setting is 'tf', meaning you are using static-graph mode. Set framework='tf2' to enable eager execution with tf2.x. You may also then want to set eager_tracing=True in order to reach similar execution speed as with static-graph mode.
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 8ms, vehicles TOT 0 ACT 0 BUF 0)                      
+2022-08-19 10:25:26,294	INFO simple_q.py:187 -- In multi-agent mode, policies will be optimized sequentially by the multi-GPU optimizer. Consider setting `simple_optimizer=True` if this doesn't work for you.
+Setting the path for recording to D:/0-School/DQN-RLlib-SumoRL-Experiments/Local_DIR\DQNTrainer_dqn_3_step_learning_intersections_2022-08-19_10-25-25zo_5sp95\
+2022-08-19 10:25:26,450	WARNING env.py:42 -- Skipping env checking for this experiment
+D:\3-Coding\3.9.13(64)\lib\site-packages\gym\wrappers\monitor.py:87: UserWarning: WARN: Trying to monitor an environment which has no 'spec' set. This usually means you did not create it via 'gym.make', and is recommended only for advanced users.
+  logger.warn(
+(pid=6988) 
+(pid=8240) 
+2022-08-19 10:25:28,277	INFO tf_policy.py:181 -- TFPolicy (worker=local) running on 1 GPU(s).
+2022-08-19 10:25:28,402	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `q_values` to view-reqs.
+2022-08-19 10:25:28,402	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_dist_inputs` to view-reqs.
+2022-08-19 10:25:28,402	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_logp` to view-reqs.
+2022-08-19 10:25:28,402	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_prob` to view-reqs.
+2022-08-19 10:25:28,402	INFO dynamic_tf_policy.py:736 -- Testing `postprocess_trajectory` w/ dummy batch.
+2022-08-19 10:25:29,465	INFO tf_policy.py:181 -- TFPolicy (worker=local) running on 1 GPU(s).
+2022-08-19 10:25:30,995	INFO rollout_worker.py:1793 -- Built policy map: {}
+2022-08-19 10:25:30,995	INFO rollout_worker.py:1794 -- Built preprocessor map: {'test': <ray.rllib.models.preprocessors.NoPreprocessor object at 0x000001F24F5DF460>}
+2022-08-19 10:25:30,995	INFO rollout_worker.py:670 -- Built filter map: {'test': <ray.rllib.utils.filter.NoFilter object at 0x000001F24F5DF400>}
+2022-08-19 10:25:31,042	WARNING deprecation.py:46 -- DeprecationWarning: `simple_optimizer` has been deprecated. This will raise an error in the future!
+2022-08-19 10:25:31,042	INFO simple_q.py:187 -- In multi-agent mode, policies will be optimized sequentially by the multi-GPU optimizer. Consider setting `simple_optimizer=True` if this doesn't work for you.
+2022-08-19 10:25:31,652	WARNING env.py:42 -- Skipping env checking for this experiment
+Step #0.00 (0ms ?*RT. ?UPS, TraCI: 7ms, vehicles TOT 0 ACT 0 BUF 0)                      
+Setting the path for recording to D:/0-School/DQN-RLlib-SumoRL-Experiments/Local_DIR\DQNTrainer_dqn_3_step_learning_intersections_2022-08-19_10-25-25zo_5sp95\
+2022-08-19 10:25:32,386	INFO tf_policy.py:181 -- TFPolicy (worker=local) running on 1 GPU(s).
+2022-08-19 10:25:32,479	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `q_values` to view-reqs.
+2022-08-19 10:25:32,479	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_dist_inputs` to view-reqs.
+2022-08-19 10:25:32,479	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_logp` to view-reqs.
+2022-08-19 10:25:32,479	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_prob` to view-reqs.
+2022-08-19 10:25:32,479	INFO dynamic_tf_policy.py:736 -- Testing `postprocess_trajectory` w/ dummy batch.
+2022-08-19 10:25:33,479	INFO tf_policy.py:181 -- TFPolicy (worker=local) running on 1 GPU(s).
+(RolloutWorker pid=6988) 2022-08-19 10:25:34,682	WARNING env.py:42 -- Skipping env checking for this experiment
+(RolloutWorker pid=6988) D:\3-Coding\3.9.13(64)\lib\site-packages\gym\wrappers\monitor.py:87: UserWarning: WARN: Trying to monitor an environment which has no 'spec' set. This usually means you did not create it via 'gym.make', and is recommended only for advanced users.
+(RolloutWorker pid=6988)   logger.warn(
+(RolloutWorker pid=6988) Step #0.00 (0ms ?*RT. ?UPS, TraCI: 6ms, vehicles TOT 0 ACT 0 BUF 0)                      
+(RolloutWorker pid=6988) Setting the path for recording to D:/0-School/DQN-RLlib-SumoRL-Experiments/Local_DIR\DQNTrainer_dqn_3_step_learning_intersections_2022-08-19_10-25-25zo_5sp95\
+loaded
+2022-08-19 10:25:35,026	INFO rollout_worker.py:1793 -- Built policy map: {}
+2022-08-19 10:25:35,026	INFO rollout_worker.py:1794 -- Built preprocessor map: {'test': <ray.rllib.models.preprocessors.NoPreprocessor object at 0x000001F26A14D730>}
+2022-08-19 10:25:35,026	INFO rollout_worker.py:670 -- Built filter map: {'test': <ray.rllib.utils.filter.NoFilter object at 0x000001F26A14D580>}
+2022-08-19 10:25:35,026	WARNING util.py:65 -- Install gputil for GPU system monitoring.
+WARNING:tensorflow:From D:\3-Coding\3.9.13(64)\lib\site-packages\ray\rllib\utils\exploration\epsilon_greedy.py:241: Variable.load (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Prefer Variable.assign which has equivalent behavior in 2.X.
+2022-08-19 10:25:35,198	INFO trainable.py:588 -- Restored on 127.0.0.1 from checkpoint: D:/0-School/DQN-RLlib-SumoRL-Experiments/checkpoints/test/checkpoint_000025/checkpoint-25
+2022-08-19 10:25:35,198	INFO trainable.py:597 -- Current state after restoring: {'_iteration': 25, '_timesteps_total': None, '_time_total': 26381.93748855591, '_episodes_total': 1}
+0
+(RolloutWorker pid=6988) 2022-08-19 10:25:35,869	INFO tf_policy.py:168 -- TFPolicy (worker=1) running on CPU.
+(RolloutWorker pid=6988) 2022-08-19 10:25:35,947	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `q_values` to view-reqs.
+(RolloutWorker pid=6988) 2022-08-19 10:25:35,947	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_dist_inputs` to view-reqs.
+(RolloutWorker pid=6988) 2022-08-19 10:25:35,947	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_logp` to view-reqs.
+(RolloutWorker pid=6988) 2022-08-19 10:25:35,947	INFO dynamic_tf_policy.py:727 -- Adding extra-action-fetch `action_prob` to view-reqs.
+(RolloutWorker pid=6988) 2022-08-19 10:25:35,947	INFO dynamic_tf_policy.py:736 -- Testing `postprocess_trajectory` w/ dummy batch.
+(RolloutWorker pid=6988) WARNING:tensorflow:From D:\3-Coding\3.9.13(64)\lib\site-packages\ray\rllib\utils\exploration\epsilon_greedy.py:241: Variable.load (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+(RolloutWorker pid=6988) Instructions for updating:
+(RolloutWorker pid=6988) Prefer Variable.assign which has equivalent behavior in 2.X.
+(RolloutWorker pid=6988) 2022-08-19 10:25:36,807	INFO rollout_worker.py:819 -- Generating sample batch of size 5
+(RolloutWorker pid=6988) Warning: Flow 'flow_20' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_38' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_47' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_50' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_56' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_68' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_77' has no instances; will skip it.
+(RolloutWorker pid=6988) 2022-08-19 10:25:37,369	INFO sampler.py:664 -- Raw obs from env: { 0: { '391956545': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+(RolloutWorker pid=6988)        '5634223996': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+(RolloutWorker pid=6988)        '6280153685': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045)}}
+(RolloutWorker pid=6988) 2022-08-19 10:25:37,369	INFO sampler.py:665 -- Info return from env: {0: {}}
+(RolloutWorker pid=6988) 2022-08-19 10:25:37,369	WARNING deprecation.py:46 -- DeprecationWarning: `policy_mapping_fn(agent_id)` has been deprecated. Use `policy_mapping_fn(agent_id, episode, worker, **kwargs)` instead. This will raise an error in the future!
+(RolloutWorker pid=6988) 2022-08-19 10:25:37,369	INFO sampler.py:900 -- Preprocessed obs: np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045)
+(RolloutWorker pid=6988) 2022-08-19 10:25:37,369	INFO sampler.py:905 -- Filtered obs: np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045)
+(RolloutWorker pid=6988) 2022-08-19 10:25:37,369	INFO sampler.py:1135 -- Inputs to compute_actions():
+(RolloutWorker pid=6988) 
+(RolloutWorker pid=6988) { 'test': [ { 'data': { 'agent_id': '391956545',
+(RolloutWorker pid=6988)                         'env_id': 0,
+(RolloutWorker pid=6988)                         'info': {},
+(RolloutWorker pid=6988)                         'obs': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+(RolloutWorker pid=6988)                         'prev_action': None,
+(RolloutWorker pid=6988)                         'prev_reward': 0.0,
+(RolloutWorker pid=6988)                         'rnn_state': None},
+(RolloutWorker pid=6988)               'type': 'PolicyEvalData'},
+(RolloutWorker pid=6988)             { 'data': { 'agent_id': '5634223996',
+(RolloutWorker pid=6988)                         'env_id': 0,
+(RolloutWorker pid=6988)                         'info': {},
+(RolloutWorker pid=6988)                         'obs': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+(RolloutWorker pid=6988)                         'prev_action': None,
+(RolloutWorker pid=6988)                         'prev_reward': 0.0,
+(RolloutWorker pid=6988)                         'rnn_state': None},
+(RolloutWorker pid=6988)               'type': 'PolicyEvalData'},
+(RolloutWorker pid=6988)             { 'data': { 'agent_id': '6280153685',
+(RolloutWorker pid=6988)                         'env_id': 0,
+(RolloutWorker pid=6988)                         'info': {},
+(RolloutWorker pid=6988)                         'obs': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+(RolloutWorker pid=6988)                         'prev_action': None,
+(RolloutWorker pid=6988)                         'prev_reward': 0.0,
+(RolloutWorker pid=6988)                         'rnn_state': None},
+(RolloutWorker pid=6988)               'type': 'PolicyEvalData'}]}
+(RolloutWorker pid=6988) 
+(RolloutWorker pid=6988) 2022-08-19 10:25:37,369	INFO tf_run_builder.py:98 -- Executing TF run without tracing. To dump TF timeline traces to disk, set the TF_TIMELINE_DIR environment variable.
+(RolloutWorker pid=6988) 2022-08-19 10:25:37,775	INFO sampler.py:1161 -- Outputs of compute_actions():
+(RolloutWorker pid=6988) 
+(RolloutWorker pid=6988) { 'test': ( np.ndarray((3,), dtype=int64, min=0.0, max=2.0, mean=0.667),
+(RolloutWorker pid=6988)             [],
+(RolloutWorker pid=6988)             { 'action_dist_inputs': np.ndarray((3, 3), dtype=float32, min=43.145, max=46.481, mean=44.384),
+(RolloutWorker pid=6988)               'action_logp': np.ndarray((3,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+(RolloutWorker pid=6988)               'action_prob': np.ndarray((3,), dtype=float32, min=1.0, max=1.0, mean=1.0),
+(RolloutWorker pid=6988)               'q_values': np.ndarray((3, 3), dtype=float32, min=43.145, max=46.481, mean=44.384)})}
+(RolloutWorker pid=6988) 
+S
+St
+Ste
+Step
+Step 
+Step #
+Step #3
+Step #36
+Step #405
+Step #4500
+Step #49500
+Step #54000.
+Step #58500.0
+Step #63000.00
+Step #67500.00 
+Step #72000.00 (
+Step #76500.00 (2
+(RolloutWorker pid=6988) Warning: Vehicle 'flow_t30452.232' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=76729.00.
+Step #76700.00 (233ms ~= 4.29*RT, ~4742.49UPS, TraCI: 431ms, vehicles TOT 219126 ACT 1105 
+S
+St
+Step #86400.00 (281ms ~= 3.56*RT, ~3989.32UPS, TraCI: 455ms, vehicles TOT 248553 ACT 1121 
+(RolloutWorker pid=6988) Warning: Vehicle 'flow_318.1801' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=86421.00.
+S
+(RolloutWorker pid=6988) Warning: Vehicle 'flow_318.2262' performs emergency braking with decel=-9.00 wished=4.50 severity=1.00, time=95030.00.
+Step #95000.00 (271ms ~= 3.69*RT, ~4095.94UPS, TraCI: 458ms, vehicles TOT 271873 ACT 1110 
+S
+(RolloutWorker pid=6988) 2022-08-19 16:39:22,626	INFO simple_list_collector.py:904 -- Trajectory fragment after postprocess_trajectory():
+(RolloutWorker pid=6988) 
+(RolloutWorker pid=6988) { '391956545': { 'actions': np.ndarray((20161,), dtype=int64, min=0.0, max=2.0, mean=0.925),
+(RolloutWorker pid=6988)                  'agent_index': np.ndarray((20161,), dtype=int32, min=0.0, max=0.0, mean=0.0),
+(RolloutWorker pid=6988)                  'dones': np.ndarray((20161,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+(RolloutWorker pid=6988)                  'eps_id': np.ndarray((20161,), dtype=int32, min=1688184599.0, max=1688184599.0, mean=1688184599.0),
+(RolloutWorker pid=6988)                  'infos': np.ndarray((20161,), dtype=object, head={}),
+(RolloutWorker pid=6988)                  'new_obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.421),
+(RolloutWorker pid=6988)                  'obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.421),
+(RolloutWorker pid=6988)                  'rewards': np.ndarray((20161,), dtype=float32, min=-386.61, max=436.82, mean=-0.258),
+(RolloutWorker pid=6988)                  'unroll_id': np.ndarray((20161,), dtype=int32, min=0.0, max=0.0, mean=0.0),
+(RolloutWorker pid=6988)                  'weights': np.ndarray((20161,), dtype=float32, min=1.0, max=1.0, mean=1.0)},
+(RolloutWorker pid=6988)   '5634223996': { 'actions': np.ndarray((20161,), dtype=int64, min=0.0, max=2.0, mean=1.075),
+(RolloutWorker pid=6988)                   'agent_index': np.ndarray((20161,), dtype=int32, min=1.0, max=1.0, mean=1.0),
+(RolloutWorker pid=6988)                   'dones': np.ndarray((20161,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+(RolloutWorker pid=6988)                   'eps_id': np.ndarray((20161,), dtype=int32, min=1688184599.0, max=1688184599.0, mean=1688184599.0),
+(RolloutWorker pid=6988)                   'infos': np.ndarray((20161,), dtype=object, head={}),
+(RolloutWorker pid=6988)                   'new_obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.506),
+(RolloutWorker pid=6988)                   'obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.506),
+(RolloutWorker pid=6988)                   'rewards': np.ndarray((20161,), dtype=float32, min=-49.42, max=69.33, mean=-0.008),
+(RolloutWorker pid=6988)                   'unroll_id': np.ndarray((20161,), dtype=int32, min=1.0, max=1.0, mean=1.0),
+(RolloutWorker pid=6988)                   'weights': np.ndarray((20161,), dtype=float32, min=1.0, max=1.0, mean=1.0)},
+(RolloutWorker pid=6988)   '6280153685': { 'actions': np.ndarray((20161,), dtype=int64, min=0.0, max=2.0, mean=1.166),
+(RolloutWorker pid=6988)                   'agent_index': np.ndarray((20161,), dtype=int32, min=2.0, max=2.0, mean=2.0),
+(RolloutWorker pid=6988)                   'dones': np.ndarray((20161,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+(RolloutWorker pid=6988)                   'eps_id': np.ndarray((20161,), dtype=int32, min=1688184599.0, max=1688184599.0, mean=1688184599.0),
+(RolloutWorker pid=6988)                   'infos': np.ndarray((20161,), dtype=object, head={}),
+(RolloutWorker pid=6988)                   'new_obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.581),
+(RolloutWorker pid=6988)                   'obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.581),
+(RolloutWorker pid=6988)                   'rewards': np.ndarray((20161,), dtype=float32, min=-59.49, max=54.6, mean=-0.011),
+(RolloutWorker pid=6988)                   'unroll_id': np.ndarray((20161,), dtype=int32, min=2.0, max=2.0, mean=2.0),
+(RolloutWorker pid=6988)                   'weights': np.ndarray((20161,), dtype=float32, min=1.0, max=1.0, mean=1.0)}}
+(RolloutWorker pid=6988) 
+Step #100805.00 (272ms ~= 3.68*RT, ~4900.74UPS, TraCI: 960ms, vehicles TOT 287087 ACT 1333
+(RolloutWorker pid=6988) Warning: Flow 'flow_20' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_38' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_47' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_50' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_56' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_68' has no instances; will skip it.
+(RolloutWorker pid=6988) Warning: Flow 'flow_77' has no instances; will skip it.
+(RolloutWorker pid=6988) 2022-08-19 16:39:27,546	INFO rollout_worker.py:864 -- Completed sample batch:
+(RolloutWorker pid=6988) 
+(RolloutWorker pid=6988) { 'count': 20161,
+(RolloutWorker pid=6988)   'policy_batches': { 'test': { 'actions': np.ndarray((60483,), dtype=int64, min=0.0, max=2.0, mean=1.055),
+(RolloutWorker pid=6988)                                 'agent_index': np.ndarray((60483,), dtype=int32, min=0.0, max=2.0, mean=1.0),
+(RolloutWorker pid=6988)                                 'dones': np.ndarray((60483,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+(RolloutWorker pid=6988)                                 'eps_id': np.ndarray((60483,), dtype=int32, min=1688184599.0, max=1688184599.0, mean=1688184599.0),
+(RolloutWorker pid=6988)                                 'new_obs': np.ndarray((60483, 22), dtype=float32, min=0.0, max=1.0, mean=0.503),
+(RolloutWorker pid=6988)                                 'obs': np.ndarray((60483, 22), dtype=float32, min=0.0, max=1.0, mean=0.503),
+(RolloutWorker pid=6988)                                 'rewards': np.ndarray((60483,), dtype=float32, min=-386.61, max=436.82, mean=-0.092),
+(RolloutWorker pid=6988)                                 'unroll_id': np.ndarray((60483,), dtype=int32, min=0.0, max=2.0, mean=1.0),
+(RolloutWorker pid=6988)                                 'weights': np.ndarray((60483,), dtype=float32, min=1.0, max=1.0, mean=1.0)}},
+(RolloutWorker pid=6988)   'type': 'MultiAgentBatch'}
+(RolloutWorker pid=6988) 
+2022-08-19 16:39:27,812	WARNING deprecation.py:46 -- DeprecationWarning: `ReplayBuffer.add_batch()` has been deprecated. Use `RepayBuffer.add()` instead. This will raise an error in the future!
+2022-08-19 16:39:31,124	INFO replay_buffer.py:47 -- Estimated max memory usage for replay buffer is 0.00205 GB (10000.0 batches of size 1, 205 bytes each), available system memory is 8.451756032 GB
+2022-08-19 16:39:31,389	WARNING deprecation.py:46 -- DeprecationWarning: `replay` has been deprecated. Use `sample` instead. This will raise an error in the future!
+2022-08-19 16:39:31,420	INFO dynamic_tf_policy.py:1080 -- Training on concatenated sample batches:
+
+{ 'inputs': [ np.ndarray((35,), dtype=int64, min=0.0, max=2.0, mean=1.057),
+              np.ndarray((35,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+              np.ndarray((35, 22), dtype=float32, min=0.0, max=1.0, mean=0.571),
+              np.ndarray((35, 22), dtype=float32, min=0.0, max=1.0, mean=0.585),
+              np.ndarray((35,), dtype=float32, min=-13.76, max=35.21, mean=-1.011),
+              np.ndarray((35,), dtype=float32, min=1.0, max=1.0, mean=1.0)],
+  'placeholders': [ <tf.Tensor 'test/action:0' shape=(?,) dtype=int64>,
+                    <tf.Tensor 'test/dones:0' shape=(?,) dtype=float32>,
+                    <tf.Tensor 'test/new_obs:0' shape=(?, 22) dtype=float32>,
+                    <tf.Tensor 'test/obs:0' shape=(?, 22) dtype=float32>,
+                    <tf.Tensor 'test/rewards:0' shape=(?,) dtype=float32>,
+                    <tf.Tensor 'test/weights:0' shape=(?,) dtype=float32>],
+  'state_inputs': []}
+
+2022-08-19 16:39:31,420	INFO dynamic_tf_policy.py:1141 -- Divided 35 rollout sequences, each of length 1, among 1 devices.
+2022-08-19 16:39:36,639	INFO trainer.py:1354 -- Evaluating current policy for 1 episodes.
+2022-08-19 16:39:36,639	INFO rollout_worker.py:819 -- Generating sample batch of size 1
+Warning: Flow 'flow_20' has no instances; will skip it.
+Warning: Flow 'flow_38' has no instances; will skip it.
+Warning: Flow 'flow_47' has no instances; will skip it.
+Warning: Flow 'flow_50' has no instances; will skip it.
+Warning: Flow 'flow_56' has no instances; will skip it.
+Warning: Flow 'flow_68' has no instances; will skip it.
+Warning: Flow 'flow_77' has no instances; will skip it.
+2022-08-19 16:39:37,264	INFO sampler.py:664 -- Raw obs from env: { 0: { '391956545': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+       '5634223996': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+       '6280153685': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045)}}
+2022-08-19 16:39:37,264	INFO sampler.py:665 -- Info return from env: {0: {}}
+2022-08-19 16:39:37,264	WARNING deprecation.py:46 -- DeprecationWarning: `policy_mapping_fn(agent_id)` has been deprecated. Use `policy_mapping_fn(agent_id, episode, worker, **kwargs)` instead. This will raise an error in the future!
+2022-08-19 16:39:37,295	INFO sampler.py:900 -- Preprocessed obs: np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045)
+2022-08-19 16:39:37,295	INFO sampler.py:905 -- Filtered obs: np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045)
+2022-08-19 16:39:37,295	INFO sampler.py:1135 -- Inputs to compute_actions():
+
+{ 'test': [ { 'data': { 'agent_id': '391956545',
+                        'env_id': 0,
+                        'info': {},
+                        'obs': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+                        'prev_action': None,
+                        'prev_reward': 0.0,
+                        'rnn_state': None},
+              'type': 'PolicyEvalData'},
+            { 'data': { 'agent_id': '5634223996',
+                        'env_id': 0,
+                        'info': {},
+                        'obs': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+                        'prev_action': None,
+                        'prev_reward': 0.0,
+                        'rnn_state': None},
+              'type': 'PolicyEvalData'},
+            { 'data': { 'agent_id': '6280153685',
+                        'env_id': 0,
+                        'info': {},
+                        'obs': np.ndarray((22,), dtype=float32, min=0.0, max=1.0, mean=0.045),
+                        'prev_action': None,
+                        'prev_reward': 0.0,
+                        'rnn_state': None},
+              'type': 'PolicyEvalData'}]}
+
+2022-08-19 16:39:37,295	INFO tf_run_builder.py:98 -- Executing TF run without tracing. To dump TF timeline traces to disk, set the TF_TIMELINE_DIR environment variable.
+2022-08-19 16:39:37,467	INFO sampler.py:1161 -- Outputs of compute_actions():
+
+{ 'test': ( np.ndarray((3,), dtype=int64, min=2.0, max=2.0, mean=2.0),
+            [],
+            { 'action_dist_inputs': np.ndarray((3, 3), dtype=float32, min=43.107, max=46.449, mean=44.352),
+              'action_logp': np.ndarray((3,), dtype=float32, min=0.0, max=0.0, mean=0.0),
+              'action_prob': np.ndarray((3,), dtype=float32, min=1.0, max=1.0, mean=1.0),
+              'q_values': np.ndarray((3, 3), dtype=float32, min=43.107, max=46.449, mean=44.352)})}
+
+Step #58500.0	 
+Step #72000.00 ( 
+
+Step #76500.00 (3 
+Step #81000.00 (39 
+Step #85500.00 (416 
+Step #94500.00 (428ms 
+Step #99000.00 (454ms 2022-08-20 01:49:30,716	INFO simple_list_collector.py:904 -- Trajectory fragment after postprocess_trajectory():
+
+{ '391956545': { 'actions': np.ndarray((20161,), dtype=int64, min=1.0, max=2.0, mean=1.001),
+                 'agent_index': np.ndarray((20161,), dtype=int32, min=0.0, max=0.0, mean=0.0),
+                 'dones': np.ndarray((20161,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+                 'eps_id': np.ndarray((20161,), dtype=int32, min=512838175.0, max=512838175.0, mean=512838175.0),
+                 'infos': np.ndarray((20161,), dtype=object, head={}),
+                 'new_obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.568),
+                 'obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.568),
+                 'rewards': np.ndarray((20161,), dtype=float32, min=-5.05, max=0.62, mean=-4.867),
+                 'unroll_id': np.ndarray((20161,), dtype=int32, min=0.0, max=0.0, mean=0.0),
+                 'weights': np.ndarray((20161,), dtype=float32, min=1.0, max=1.0, mean=1.0)},
+  '5634223996': { 'actions': np.ndarray((20161,), dtype=int64, min=0.0, max=2.0, mean=0.465),
+                  'agent_index': np.ndarray((20161,), dtype=int32, min=1.0, max=1.0, mean=1.0),
+                  'dones': np.ndarray((20161,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+                  'eps_id': np.ndarray((20161,), dtype=int32, min=512838175.0, max=512838175.0, mean=512838175.0),
+                  'infos': np.ndarray((20161,), dtype=object, head={}),
+                  'new_obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.414),
+                  'obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.414),
+                  'rewards': np.ndarray((20161,), dtype=float32, min=-7.52, max=21.6, mean=-2.306),
+                  'unroll_id': np.ndarray((20161,), dtype=int32, min=1.0, max=1.0, mean=1.0),
+                  'weights': np.ndarray((20161,), dtype=float32, min=1.0, max=1.0, mean=1.0)},
+  '6280153685': { 'actions': np.ndarray((20161,), dtype=int64, min=0.0, max=2.0, mean=1.047),
+                  'agent_index': np.ndarray((20161,), dtype=int32, min=2.0, max=2.0, mean=2.0),
+                  'dones': np.ndarray((20161,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+                  'eps_id': np.ndarray((20161,), dtype=int32, min=512838175.0, max=512838175.0, mean=512838175.0),
+                  'infos': np.ndarray((20161,), dtype=object, head={}),
+                  'new_obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.637),
+                  'obs': np.ndarray((20161, 22), dtype=float32, min=0.0, max=1.0, mean=0.637),
+                  'rewards': np.ndarray((20161,), dtype=float32, min=-601.15, max=1190.44, mean=-7.223),
+                  'unroll_id': np.ndarray((20161,), dtype=int32, min=2.0, max=2.0, mean=2.0),
+                  'weights': np.ndarray((20161,), dtype=float32, min=1.0, max=1.0, mean=1.0)}}
+
+Step #100805.00 (459ms ~= 2.18*RT, ~4413.94UPS, TraCI: 1954ms, vehicles TOT 76378 ACT 2026
+ Retrying in 1 seconds
+Warning: Flow 'flow_20' has no instances; will skip it.
+Warning: Flow 'flow_38' has no instances; will skip it.
+Warning: Flow 'flow_47' has no instances; will skip it.
+Warning: Flow 'flow_50' has no instances; will skip it.
+Warning: Flow 'flow_56' has no instances; will skip it.
+Warning: Flow 'flow_68' has no instances; will skip it.
+Warning: Flow 'flow_77' has no instances; will skip it.
+2022-08-20 01:49:58,496	INFO rollout_worker.py:864 -- Completed sample batch:
+
+{ 'count': 20161,
+  'policy_batches': { 'test': { 'actions': np.ndarray((60483,), dtype=int64, min=0.0, max=2.0, mean=0.838),
+                                'agent_index': np.ndarray((60483,), dtype=int32, min=0.0, max=2.0, mean=1.0),
+                                'dones': np.ndarray((60483,), dtype=bool, min=0.0, max=0.0, mean=0.0),
+                                'eps_id': np.ndarray((60483,), dtype=int32, min=512838175.0, max=512838175.0, mean=512838175.0),
+                                'new_obs': np.ndarray((60483, 22), dtype=float32, min=0.0, max=1.0, mean=0.54),
+                                'obs': np.ndarray((60483, 22), dtype=float32, min=0.0, max=1.0, mean=0.54),
+                                'rewards': np.ndarray((60483,), dtype=float32, min=-601.15, max=1190.44, mean=-4.799),
+                                'unroll_id': np.ndarray((60483,), dtype=int32, min=0.0, max=2.0, mean=1.0),
+                                'weights': np.ndarray((60483,), dtype=float32, min=1.0, max=1.0, mean=1.0)}},
+  'type': 'MultiAgentBatch'}
+
+checkpointing
+done checkpointing
+1
+S
+St
+Ste
+Step
+Step 
+Step #
+Step #3
+Step #36
+Step #405
+Step #4500
+Step #49500
+Step #54000.
+Step #58500.0
